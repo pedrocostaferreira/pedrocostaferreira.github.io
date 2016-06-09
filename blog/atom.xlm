@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Pedro Ferreira Blog</title>
-	<link href="http://pedrocostaferreira.github.io//blog/atom.xml" rel="self"/>
-	<link href="http://pedrocostaferreira.github.io//blog"/>
+	<link href="http://pedrocostaferreira.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://pedrocostaferreira.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://pedrocostaferreira.github.io//blog</id>
+	<id>http://pedrocostaferreira.github.io/blog</id>
 	<author>
 		<name>Pedro Costa Ferreira</name>
 		<email>pedro.guilherme@fgv.br</email>
@@ -17,9 +17,9 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://pedrocostaferreira.github.io/{{ post.url }}"/>
+			<link href="http://pedrocostaferreira.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://pedrocostaferreira.github.io//{{ post.id }}</id>
+			<id>http://pedrocostaferreira.github.io/{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
