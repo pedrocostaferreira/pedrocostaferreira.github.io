@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Hank Quinlan's Blog</title>
+	<title>Pedro Ferreira Blog</title>
 	<link href="http://http://pedrocostaferreira.github.io//blog/atom.xml" rel="self"/>
 	<link href="http://http://pedrocostaferreira.github.io//blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
