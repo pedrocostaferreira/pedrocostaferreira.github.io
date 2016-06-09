@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Post Teste
+date: 2016-06-09
 tags: 
  - thoughts
  - blog
