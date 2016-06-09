@@ -10,7 +10,7 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://pedrocostaferreira.github.io/blog</id>
 	<author>
-		<name>Pedro Costa Ferreira</name>
+		<name>Pedro Ferreira</name>
 		<email>pedro.guilherme@fgv.br</email>
 	</author>
 
