@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background:url(../imagens/bg-body.jpg);;
+    background:url(imagens/bg-body.jpg);;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
