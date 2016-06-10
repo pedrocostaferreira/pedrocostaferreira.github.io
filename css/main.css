@@ -27,6 +27,9 @@ h1 {
 }
 
 
+
+
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -45,3 +48,32 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+/*------------------------------------------------------------------
+[6. Footer/ .footer]
+*/
+
+.footer {
+	margin-top: 0;
+	
+	border-top: 1px solid #292929;
+}
+
+.footer-inner {
+	padding: 15px 0;
+	
+	font-size: 12px;
+	background: #111;
+	color: #999;
+}
+
+.footer a {
+	color: #999;
+}
+
+.footer a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+/*------------------------------------------------------------*/
