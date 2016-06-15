@@ -3,6 +3,17 @@ body {
     width: 70%;
     background:url(imagens/bg-body.jpg);;
 }
+
+#header{
+        z-index:5;
+        background-color:##00008B;
+        text-align:left;
+        visibility:visible;
+        position:relative;
+        height:100px;
+        width:758px;
+        height:auto;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
