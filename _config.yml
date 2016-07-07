@@ -4,6 +4,17 @@ markdown: kramdown
 
 url: http://pedrocostaferreira.github.io
 
+author :
+  name : Pedro Costa Ferreira
+  givenName: pedrocostaferreira
+  familyName: Pedro
+  twitter: 
+  github: pedrocostaferreira
+  email : pedro.gulherme@fgv.br
+  facebook: 
+  linkedin: 
+
+
 disqus:
   sitename: qxd # This is the shortname of the disqus site id to display disqus comments below posts.
   
