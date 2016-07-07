@@ -2,20 +2,16 @@
 	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 		<head>
 			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-			{% if page.entry.title != null %}
-  			 <title>{{ page.entry.title }}</title>
- 			{% else %}
-   			<title>{{ page.title }}</title>
-			 {% endif %}
+			
+   			<title>About me</title>
+			 
 			 <meta name="author" content="Pedro Costa Ferreira" />
 			
 			
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			
-			{% if page.latex %} 
- 				<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-			{% endif %}
+			
 		</head>
 		<body>
 			<nav>
@@ -28,7 +24,8 @@
 			</nav>
 			<div class="container">
 			
-			{{ content }}
+			<h2 id="about-me">About me</h2>
+
 			
 			</div><!-- /.container -->
 			<footer>

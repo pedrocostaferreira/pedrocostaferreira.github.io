@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div id="post">
+  <h1> {{ page.entry.title }} </h1>
+
+  <p> {{ page.entry.citeproc }} </p>
+
+  {% if page.entry.abstract == empty or page.entry.abstract == nil %}
+  {% else %}
+   <br/>
+   <h3>Abstract:</h3>
+   <p> {{ page.entry.abstract }} </p>
+  {% endif %}
+
+   <h3>Downloads:</h3>
+   <p><ul>
+     {% if page.entry.pdflink1 != null and page.entry.pdflink1 != empty %}
+      <li> <a href="{{ page.entry.pdflink1 }}">full text</a></li>
+     {% else %}
+      <li>No text available</li>
+     {% endif %}
+     {% if page.entry.slides != null and page.entry.slides != empty %}
+      <li> <a href="{{ page.entry.slides }}">slides</a></li>
+     {% else %}
+      <li>No slides available</li>
+     {% endif %}
+   </ul></p>
+
+  <h3>BibTeX:</h3>
+  {% highlight bash tabsize=2 %}
+  {{ page.entry.bibtex }} 
+  {% endhighlight %}
+</div>
+
+<br/>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'arademaker'; 
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+

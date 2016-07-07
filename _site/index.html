@@ -2,20 +2,16 @@
 	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 		<head>
 			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-			{% if page.entry.title != null %}
-  			 <title>{{ page.entry.title }}</title>
- 			{% else %}
-   			<title>{{ page.title }}</title>
-			 {% endif %}
+			
+   			<title>Pedro Costa Ferreia</title>
+			 
 			 <meta name="author" content="Pedro Costa Ferreira" />
 			
 			
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			
-			{% if page.latex %} 
- 				<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-			{% endif %}
+			
 		</head>
 		<body>
 			<nav>
@@ -28,7 +24,11 @@
 			</nav>
 			<div class="container">
 			
-			{{ content }}
+			<div class="blurb">
+	<h1>Pedro Costa Ferreira</h1>
+	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+</div><!-- /.blurb -->
+
 			
 			</div><!-- /.container -->
 			<footer>
