@@ -2,7 +2,11 @@ encoding: UTF-8
 name: Pedro Costa Ferreira
 markdown: kramdown
 
+url: http://pedrocostaferreira.github.io
 
+disqus:
+  sitename: qxd # This is the shortname of the disqus site id to display disqus comments below posts.
+  
 gems: ['jekyll/scholar']
 
 scholar:
