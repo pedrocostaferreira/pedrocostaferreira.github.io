@@ -28,7 +28,7 @@ scholar:
   group_by: none
   group_order: ascending
 
-  source: ./_bibliography
+  source: bibliography
   bibliography: references.bib
   bibliography_template: "{{reference}}"
 
