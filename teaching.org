@@ -1,0 +1,69 @@
+---
+layout: default
+title: Teaching
+---
+#+PROPERTY: cache yes
+#+PROPERTY: results output
+#+OPTIONS: toc:nil
+#+PROPERTY: exports code
+
+* {{ page.title }}
+
+** 2016
+
+- [[https://github.com/arademaker/ED-2016.1][Estruturas de dados e algorítmos]], Graduação EMAp, FGV.
+- [[https://github.com/arademaker/ed-2016-mestrado][Estruturas de dados e algorítmos]], Mestrado EMAp, FGV.
+
+** 2015
+
+- Estruturas de dados e algorítmos, Graduação EMAp, FGV.
+- Estruturas de dados e algorítmos, Mestrado EMAp, FGV.
+- [[https://github.com/arademaker/LP-2015.2][Linguagens de Programação]], Graduação EMAp, FGV.
+
+** 2014
+
+- [[http://emapvirtual.fgv.br][Linguagens de Programação]], Graduação EMAp, FGV.
+- [[http://emapvirtual.fgv.br][Estruturas de dados e algorítmos]], Mestrado EMAp, FGV.
+- [[https://arademaker.github.com/ED-2014-1/][Estruturas de dados e algorítmos]], Graduação EMAp, FGV.
+
+** 2013
+
+- [[https://github.com/arademaker/ED-2013-1/][Estruturas de dados e algorítmos]], Mestrado EMAp, FGV.
+
+** 2012
+
+- Introdução à Teoria das Categorias e Lógica, Mestrado EMAp, FGV.
+- [[http://arademaker.github.com/LP-2012-2/][Linguagens de programação]], Graduação Matemática da EMAp, FGV.
+- [[http://arademaker.github.com/LFA-2012-2/][Linguagens formais e autômatos]], Graduação em Computação, PUC-Rio.
+- [[http://arademaker.github.com/CA-2012-1/][Computação Aplicada]], Graduação em Economia, FGV.
+- [[http://arademaker.github.com/ED-2012-1/][Estruturas de dados e algorítmos]], Mestrado EMAp, FGV.
+
+** 2011
+
+- [[http://epgevirtual.fgv.br/course/view.php?id=55][Introdução à Computação II]], Graduação em Economia, FGV.
+- Lógica para Computação, Graduação em Computação, PUC-Rio.
+- Estrutura de dados e algorítmos, Mestrado EMAp, FGV.
+- [[http://epgevirtual.fgv.br/course/view.php?id=52][Introdução à Computação I]], Graduação em Economia, FGV.
+- [[https://github.com/arademaker/IR-2011][Introdução ao R]], curso de versão da EMAp, FGV.
+
+- Lógica para Computação, Graduação em Computação, PUC-Rio.
+- Linguagens formais e autômatos, Graduação em Computação, PUC-Rio.
+
+** 2010
+
+- Introdução à Computação II, Graduação em Economia, FGV.
+- Lógica para Computação, Graduação em Computação, PUC-Rio.
+- Lógica para Computação, Graduação em Computação, PUC-Rio.
+
+** 2009
+
+- Lógica para Computação, Graduação em Computação, PUC-Rio.
+
+** 2008
+
+- Tecnologia da Informação, Graduação em Administração, FGV.
+- Linguagens formais e autômatos, Graduação em Computação, PUC-Rio.
+
+** 2007
+
+- Introdução à Computação, Graduação em Economia, FGV.

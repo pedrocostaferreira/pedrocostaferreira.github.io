@@ -1,0 +1,15 @@
+* Using
+
+- https://github.com/tjaartvdwalt/jekyll-org-mode-converter
+
+* Pending
+
+- https://github.com/redline6561/coleslaw
+- [[http://www.jameskeirstead.ca/blog/generating-an-academic-cv-with-r-and-yaml/][all-in-one: CV + site]]
+
+* Gems    
+
+#+BEGIN_SRC sh
+gem update --user-install
+gem install XXX --user-install
+#+END_SRC

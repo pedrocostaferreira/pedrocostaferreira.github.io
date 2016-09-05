@@ -1,23 +1,26 @@
 ---
 layout: default
 ---
+<div class= "row row-offcanvas row-offcanvas-right"> 
+  <div class="col-xs-12 col-sm-9">
+     <p class="pull-right visible-xs">
+			   <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+      </p>   	
+     <h3> {{ page.entry.title }} </h3>
 
-<div id="post">
-  <h1> {{ page.entry.title }} </h1>
-
-  <p> {{ page.entry.citeproc }} </p>
+     <p> {{ page.entry.citeproc }} </p>
 
   {% if page.entry.abstract == empty or page.entry.abstract == nil %}
   {% else %}
    <br/>
-   <h3>Abstract:</h3>
+   <h4>Abstract:</h4>
    <p> {{ page.entry.abstract }} </p>
   {% endif %}
 
-   <h3>Downloads:</h3>
+   <h4><span class="label label-primary"><i class="fa fa-download" aria-hidden="true"></i></span> Downloads:</h4>
    <p><ul>
      {% if page.entry.pdflink1 != null and page.entry.pdflink1 != empty %}
-      <li> <a href="{{ page.entry.pdflink1 }}">full text</a></li>
+      <li>  <a href="{{ page.entry.pdflink1 }}">full text</a></li>
      {% else %}
       <li>No text available</li>
      {% endif %}
@@ -28,22 +31,61 @@ layout: default
      {% endif %}
    </ul></p>
 
-  <h3>BibTeX:</h3>
+  <h4><span class="label label-primary"><i class="fa fa-file-code-o" aria-hidden="true"></i></span>  BibTeX:</h4>
   {% highlight bash tabsize=2 %}
   {{ page.entry.bibtex }} 
   {% endhighlight %}
+
+<button  class="btn btn-primary"  onclick="goBack()">Go Back to publications</button>
+
+ </div><!-- /col-xs-12 col-sm-9 -->
+
+
+<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+<br>   
+   <div class="list-group">
+      <a href="#" class="list-group-item active-info">
+         <h4> Comida, política e data science</h4>
+      </a>
+    </div>  
+    <div class="list-group">
+      <a class=list-item-active></a>
+    </div>
+   {% for  post in site.posts limit:2 %} 
+   
+   <ul class="list-group">
+      <li class="list-group-item">
+        <span class="label label-success">New</span>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+         <span class="label label-default">
+         	<small><small>{{ post.author }} / {{ post.date | date: '%Y -' }}  {{ post.date | date: '%d -' }} {{ post.date | date: '%m' }}</small></small>
+         </span>
+       
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="{{ post.image }}"  alt="..." width=64px height=64px>
+            </a>
+          </div>
+        <div class="media-body">
+        	
+        <h4 class="media-heading">{{ post.title }}</h4>
+          <a href="{{ post.url }}">{{ post.resumo }}.</a>
+		
+		
+          <hr>
+          <h3><a href="#"><span class="label label-primary"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+          <a href="#"><span class="label label-info"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+          <a href="#"><span class="label label-danger"><i class="fa fa-google-plus" aria-hidden="true"></i></span></a></h3>
+        </div><!--/.media-body-->
+        </div><!--/.media-->
+      </li><!--/.li list-group-item-->
+      </ul><!-- /.ul list-group-->
+      
+     {% endfor %}
+      
+      
+</div><!--/.sidebar-offcanvas-->
 </div>
 
 <br/>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'arademaker'; 
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-

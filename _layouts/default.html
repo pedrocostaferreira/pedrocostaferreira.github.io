@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-		<head>
-			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-			{% if page.entry.title != null %}
-  			 <title>{{ page.entry.title }}</title>
- 			{% else %}
-   			<title>{{ page.title }}</title>
-			 {% endif %}
-			 <meta name="author" content="Pedro Costa Ferreira" />
-			
-			
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			
-			{% if page.latex %} 
- 				<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-			{% endif %}
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/publications.html">publications</a></li>
-	        		<li><a href="">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:pedro.guilherme@fgv.br">email</a></li>
-	        		<li><a href="https://github.com/pedrocostaferreira">github.com/pedrocostaferreira</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+
+{% include header_site.html  %}
+ 				{{ content }}
+{% include footer_site.html %}

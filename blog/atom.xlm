@@ -1,27 +1,84 @@
----
-layout: null
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Pedro Ferreira Blog</title>
-	<link href="http://pedrocostaferreira.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://pedrocostaferreira.github.io/blog"/>
-	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://pedrocostaferreira.github.io/blog</id>
+	<title>Jonatha Azevedo</title>
+	<link href="http://greedblink.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://greedblink.github.io/blog"/>
+	<updated>2016-07-04T22:52:08+00:00</updated>
+	<id>http://greedblink.github.io/blog</id>
 	<author>
-		<name>Pedro Ferreira</name>
-		<email>pedro.guilherme@fgv.br</email>
+		<name>Jonatha Azevedo</name>
+		<email>jonatha.costa@fgv.br</email>
 	</author>
 
-	{% for post in site.posts %}
+	
 		<entry>
-			<title>{{ post.title }}</title>
-			<link href="http://pedrocostaferreira.github.io{{ post.url }}"/>
-			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://pedrocostaferreira.github.io/{{ post.id }}</id>
-			<content type="html">{{ post.content | xml_escape }}</content>
+			<title>Lero Lero</title>
+			<link href="http://greedblink.github.io/blog/2016/06/13/post-teste.4"/>
+			<updated>2016-06-13T00:00:00+00:00</updated>
+			<id>http://greedblink.github.io//blog/2016/06/13/post-teste.4</id>
+			<content type="html">&lt;p&gt;&lt;img src=&quot;/images/estatistica.jpg&quot; class=&quot;img-fluid center-block&quot; width=&quot;771&quot; height=&quot;250&quot; alt=&quot;Responsive image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at risus id velit placerat commodo vitae ac mi. Nam congue 
+lorem quis leo porta sodales a id ante. Donec in faucibus urna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+Donec molestie mauris a finibus lacinia. Sed sit amet rutrum ipsum, et tempus ligula. Aliquam eu ullamcorper sem. Nam eget 
+commodo nulla, interdum fermentum leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempus, erat eget 
+accumsan facilisis, odio erat tempus ipsum, ut vehicula ligula purus eu tellus. Phasellus cursus tempor odio, ac ultrices nibh 
+volutpat vitae. Nunc tincidunt ultricies nulla, eget lobortis ligula commodo at. Pellentesque mollis erat a tincidunt interdum. 
+Fusce tincidunt aliquam dignissim. Nulla tempor tincidunt purus vel vestibulum. Fusce vestibulum scelerisque quam, ut venenatis 
+odio tempor non.&lt;/p&gt;
+
+&lt;p&gt;Nulla pulvinar magna turpis, a sollicitudin dolor consectetur a. In tellus lectus, ultrices ac luctus id, 
+placerat vitae leo. Donec tempus sapien non consectetur tristique. Cras dignissim eros eu varius luctus. Vivamus vulputate 
+dapibus risus, sed iaculis ligula tempus a. Suspendisse vehicula tellus semper massa consectetur cursus. Nam odio nibh, aliquam 
+ut libero a, lacinia mattis odio. Sed efficitur ornare nunc. Donec arcu lorem, pretium quis augue vel, interdum laoreet turpis. 
+Aliquam nibh tellus, porta iaculis lorem id, viverra egestas metus. Aliquam cursus justo eu elit maximus consequat.&lt;/p&gt;
+</content>
 		</entry>
-	{% endfor %}
+	
+		<entry>
+			<title>Post Teste 4</title>
+			<link href="http://greedblink.github.io/blog/2016/06/12/post-teste"/>
+			<updated>2016-06-12T00:00:00+00:00</updated>
+			<id>http://greedblink.github.io//blog/2016/06/12/post-teste</id>
+			<content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at risus id velit placerat commodo vitae ac mi. Nam congue lorem quis leo porta sodales a id ante. Donec in faucibus urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec molestie mauris a finibus lacinia. Sed sit amet rutrum ipsum, et tempus ligula. Aliquam eu ullamcorper sem. Nam eget commodo nulla, interdum fermentum leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempus, erat eget accumsan facilisis, odio erat tempus ipsum, ut vehicula ligula purus eu tellus. Phasellus cursus tempor odio, ac ultrices nibh volutpat vitae. Nunc tincidunt ultricies nulla, eget lobortis ligula commodo at. Pellentesque mollis erat a tincidunt interdum. Fusce tincidunt aliquam dignissim. Nulla tempor tincidunt purus vel vestibulum. Fusce vestibulum scelerisque quam, ut venenatis odio tempor non.&lt;/p&gt;
+
+&lt;p&gt;Nulla pulvinar magna turpis, a sollicitudin dolor consectetur a. In tellus lectus, ultrices ac luctus id, placerat vitae leo. Donec tempus sapien non consectetur tristique. Cras dignissim eros eu varius luctus. Vivamus vulputate dapibus risus, sed iaculis ligula tempus a. Suspendisse vehicula tellus semper massa consectetur cursus. Nam odio nibh, aliquam ut libero a, lacinia mattis odio. Sed efficitur ornare nunc. Donec arcu lorem, pretium quis augue vel, interdum laoreet turpis. Aliquam nibh tellus, porta iaculis lorem id, viverra egestas metus. Aliquam cursus justo eu elit maximus consequat.&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Post Teste 3</title>
+			<link href="http://greedblink.github.io/blog/2016/06/11/post-teste.3"/>
+			<updated>2016-06-11T00:00:00+00:00</updated>
+			<id>http://greedblink.github.io//blog/2016/06/11/post-teste.3</id>
+			<content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at risus id velit placerat commodo vitae ac mi. Nam congue lorem quis leo porta sodales a id ante. Donec in faucibus urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec molestie mauris a finibus lacinia. Sed sit amet rutrum ipsum, et tempus ligula. Aliquam eu ullamcorper sem. Nam eget commodo nulla, interdum fermentum leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempus, erat eget accumsan facilisis, odio erat tempus ipsum, ut vehicula ligula purus eu tellus. Phasellus cursus tempor odio, ac ultrices nibh volutpat vitae. Nunc tincidunt ultricies nulla, eget lobortis ligula commodo at. Pellentesque mollis erat a tincidunt interdum. Fusce tincidunt aliquam dignissim. Nulla tempor tincidunt purus vel vestibulum. Fusce vestibulum scelerisque quam, ut venenatis odio tempor non.&lt;/p&gt;
+
+&lt;p&gt;Nulla pulvinar magna turpis, a sollicitudin dolor consectetur a. In tellus lectus, ultrices ac luctus id, placerat vitae leo. Donec tempus sapien non consectetur tristique. Cras dignissim eros eu varius luctus. Vivamus vulputate dapibus risus, sed iaculis ligula tempus a. Suspendisse vehicula tellus semper massa consectetur cursus. Nam odio nibh, aliquam ut libero a, lacinia mattis odio. Sed efficitur ornare nunc. Donec arcu lorem, pretium quis augue vel, interdum laoreet turpis. Aliquam nibh tellus, porta iaculis lorem id, viverra egestas metus. Aliquam cursus justo eu elit maximus consequat.&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Post Teste 2</title>
+			<link href="http://greedblink.github.io/blog/2016/06/10/post-teste.2"/>
+			<updated>2016-06-10T00:00:00+00:00</updated>
+			<id>http://greedblink.github.io//blog/2016/06/10/post-teste.2</id>
+			<content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at risus id velit placerat commodo vitae ac mi. Nam congue lorem quis leo porta sodales a id ante. Donec in faucibus urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec molestie mauris a finibus lacinia. Sed sit amet rutrum ipsum, et tempus ligula. Aliquam eu ullamcorper sem. Nam eget commodo nulla, interdum fermentum leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempus, erat eget accumsan facilisis, odio erat tempus ipsum, ut vehicula ligula purus eu tellus. Phasellus cursus tempor odio, ac ultrices nibh volutpat vitae. Nunc tincidunt ultricies nulla, eget lobortis ligula commodo at. Pellentesque mollis erat a tincidunt interdum. Fusce tincidunt aliquam dignissim. Nulla tempor tincidunt purus vel vestibulum. Fusce vestibulum scelerisque quam, ut venenatis odio tempor non.&lt;/p&gt;
+
+&lt;p&gt;Nulla pulvinar magna turpis, a sollicitudin dolor consectetur a. In tellus lectus, ultrices ac luctus id, placerat vitae leo. Donec tempus sapien non consectetur tristique. Cras dignissim eros eu varius luctus. Vivamus vulputate dapibus risus, sed iaculis ligula tempus a. Suspendisse vehicula tellus semper massa consectetur cursus. Nam odio nibh, aliquam ut libero a, lacinia mattis odio. Sed efficitur ornare nunc. Donec arcu lorem, pretium quis augue vel, interdum laoreet turpis. Aliquam nibh tellus, porta iaculis lorem id, viverra egestas metus. Aliquam cursus justo eu elit maximus consequat.&lt;/p&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Post Teste</title>
+			<link href="http://greedblink.github.io/blog/2016/06/09/post-teste.1"/>
+			<updated>2016-06-09T00:00:00+00:00</updated>
+			<id>http://greedblink.github.io//blog/2016/06/09/post-teste.1</id>
+			<content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at risus id velit placerat commodo vitae ac mi. Nam congue lorem quis leo porta sodales a id ante. Donec in faucibus urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec molestie mauris a finibus lacinia. Sed sit amet rutrum ipsum, et tempus ligula. Aliquam eu ullamcorper sem. Nam eget commodo nulla, interdum fermentum leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam tempus, erat eget accumsan facilisis, odio erat tempus ipsum, ut vehicula ligula purus eu tellus. Phasellus cursus tempor odio, ac ultrices nibh volutpat vitae. Nunc tincidunt ultricies nulla, eget lobortis ligula commodo at. Pellentesque mollis erat a tincidunt interdum. Fusce tincidunt aliquam dignissim. Nulla tempor tincidunt purus vel vestibulum. Fusce vestibulum scelerisque quam, ut venenatis odio tempor non.&lt;/p&gt;
+
+&lt;p&gt;Nulla pulvinar magna turpis, a sollicitudin dolor consectetur a. In tellus lectus, ultrices ac luctus id, placerat vitae leo. Donec tempus sapien non consectetur tristique. Cras dignissim eros eu varius luctus. Vivamus vulputate dapibus risus, sed iaculis ligula tempus a. Suspendisse vehicula tellus semper massa consectetur cursus. Nam odio nibh, aliquam ut libero a, lacinia mattis odio. Sed efficitur ornare nunc. Donec arcu lorem, pretium quis augue vel, interdum laoreet turpis. Aliquam nibh tellus, porta iaculis lorem id, viverra egestas metus. Aliquam cursus justo eu elit maximus consequat.&lt;/p&gt;
+</content>
+		</entry>
+	
 
 </feed>

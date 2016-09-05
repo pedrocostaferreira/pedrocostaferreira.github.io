@@ -1,0 +1,38 @@
+{% for post in site.posts limit: 5 %}
+    <div class="bs-callout bs-callout-default">
+        
+      
+       
+       <br>
+        
+        
+      <a href="{{ post.url }}">
+              <h3> {{ post.title }}</h3> 
+              <p>{{ post.resumo }}</p>
+       </a> 
+ </div>
+<ul class="nav nav-tabs">
+     <p>
+    <ul class="tags">
+	    <li><i class="fa fa-user" aria-hidden="true"></i><a href="#"> <i>{{ post.author }}</i></a></li>
+	    <li>&nbsp;</li>
+	    <li> / {{ post.date | date: '%B ' }}  {{ post.date | date: '%d,' }} {{ post.date | date: ' %Y' }}</li>
+	    <li>&nbsp;</li>
+   	    <li><a href="#" class="navbar-link"><span class="label label-primary"><i class="fa fa-facebook" aria-hidden="true"></i></span></a></li>
+   	    <li>&nbsp;</li>
+   	    <li> <a href="#" class="navbar-link"><span class="label label-info"><i class="fa fa-twitter" aria-hidden="true"></i></span></a></li>
+
+   	    <li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
+   	    
+        {% for tag in post.tags %}
+              <li><a href="/blog/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+        {% endfor %}
+        
+     </ul>
+</p>
+</ul>
+{% endfor %}	
+
+
+
+

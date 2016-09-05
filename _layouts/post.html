@@ -1,13 +1,23 @@
 ---
-layout: default
+layout: blog
 notes: archive
 ---
+
+<ul class="tags">
+  {% for tag in page.tags %}
+    <li><a href="/blog/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+  {% endfor %}
+</ul>
+
 <div class="notes">
 		<div class="note single">
-			<h1 class="title">{{ page.title }}</h1>
+			<h2 class="title">{{ page.title }}</h2s>
 			
 			<h2 class="date"><info datetime="{{ page.date }}">
-				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
+				<small>{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}</small> 
+					<button type="button" class="btn btn-default btn-xs" aria-label="Left Align" onclick="goBack()">
+						 <span class="fa fa-arrow-circle-o-left" aria-hidden="true"></span> <strong> Go Back</strong>
+				    </button>
 			</info></h2>
 			<!-- Post content -->
 			<div class="notebody">

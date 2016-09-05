@@ -1,22 +1,18 @@
-encoding: UTF-8
-name: Pedro Costa Ferreira
+gems:
+  - jekyll/scholar
+  - rdiscount
+  - jekyll-org-mode-converter
+
+
+gems: [jekyll-paginate, jekyll-feed]
+paginate: 4
+paginate_path: "/blog/page:num/"
+
+highlighter: rouge
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
 
-url: http://pedrocostaferreira.github.io
-
-author :
-  name : Pedro Costa Ferreira
-  givenName: pedrocostaferreira
-  familyName: Pedro
-  github: pedrocostaferreira
-  email : pedro.gulherme@fgv.br
- 
-
-
-disqus:
-  sitename: qxd # This is the shortname of the disqus site id to display disqus comments below posts.
-  
-gems: ['jekyll/scholar']
+exclude: ['README.org']
 
 scholar:
   style: apa
@@ -28,8 +24,8 @@ scholar:
   group_by: none
   group_order: ascending
 
-  source: bibliography
-  bibliography: references.bib
+  source: ./_bibliography
+  bibliography: pedroguilherme.bib
   bibliography_template: "{{reference}}"
 
   replace_strings: true
@@ -45,3 +41,41 @@ scholar:
   details_link:   Details
 
   query: "@*"
+
+
+image: /images/default.jpg
+
+url: "http://greedblink.github.io/"
+
+authors: 
+  jonatha: 
+    name: Jonatha Azevedo
+    display_name: Jonatha
+    email: jonatha.costa@fgv.br
+    twitter: 
+    github: GreedBlink
+  
+    fernando: 
+      name: Fernando Teixeira
+      display_name: Fernando
+      email: fernando.teixeira@fgv.br
+      twitter: 
+      github: GreedBlink
+    
+    lucas:
+     name: lucas Farias
+     display_name: Lucas
+     email: Lucas.farias@fgv.br
+     twitter: 
+     github: 
+     
+    Pedro:
+     name: Pedro Costa 
+     display_name: Pedro
+     email: pedro.guilherme@fgv.br
+     twitter: 
+     github: 
+
+
+
+

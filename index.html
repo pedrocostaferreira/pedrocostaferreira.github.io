@@ -1,8 +1,58 @@
 ---
 layout: default
-title: Pedro Costa Ferreia
+title: Pedro Costa
 ---
-<div class="blurb">
-	<h1>Pedro Costa Ferreira</h1>
-	<p><a href="/about">Read ---more about my life</a></p>
-</div><!-- /.blurb -->
+
+<div class="row">
+ 	 
+      <p class="pull-right visible-xs">
+			   <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+      </p>   	
+  <!-- app shiny do pedro -->
+  <div class="embed-responsive embed-responsive-4by3">
+     <iframe class="embed-responsive-item" src="https://pedroferreira.shinyapps.io/SeriesTemporais/"></iframe>
+     </div>
+  <!-- /app shiny do pedro -->
+    
+    <br>
+    
+    <p class="text-center"><strong>Últimas notícias do Blog: Comida, Política, Data Science</strong></p>
+    
+   {% for  post in site.posts limit:3 %} 
+   <div class="col-sm-6 col-md-4">
+   
+   <ul class="list-group">
+      <li class="list-group-item">
+        <span class="label label-success">New</span>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+         <span class="label label-default">
+         	<small><small>Por {{ post.author }} / {{ post.date | date: '%B ' }} {{ post.date | date: '%d,' }} {{ post.date | date: '%Y ' }}</small></small>
+         </span>
+       
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="{{ post.image }}"  alt="..." width=64px height=64px>
+            </a>
+          </div>
+        <div class="media-body">
+        	
+        <h4 class="media-heading">{{ post.title }}</h4>
+          <a href="{{ post.url }}">{{ post.resumo }}.</a>
+		
+		
+          <hr>
+          <h3><a href="#"><span class="label label-primary"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+          <a href="#"><span class="label label-info"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+          <a href="#"><span class="label label-danger"><i class="fa fa-google-plus" aria-hidden="true"></i></span></a></h3>
+        </div><!--/.media-body-->
+        </div><!--/.media-->
+      </li><!--/.li list-group-item-->
+    
+      </ul><!-- /.ul list-group-->
+      
+  </div>    
+  
+  
+ {% endfor %}  
+</div><!--/row-->

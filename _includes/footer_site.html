@@ -1,0 +1,105 @@
+ <footer class="bs-docs-footer">
+<div class="container">
+    
+      <div class="col-md-4 col-sm-6 footerleft ">
+        <div class="logofooter"> Pedro costa ferreira</div>
+        <p>Doutor em Engenharia Elétrica - (Decision Support Methods) e Mestre em Economia.</p>
+        <p><i class="fa fa-map-pin"></i>Escritório: Rua Barão de Itambi, nº 60 - Botafogo, RJ</p>
+        <p><i class="fa fa-phone"></i>Phone (Brazil): +55 (21) 3799-6751</p>
+        <p><i class="fa fa-envelope"></i> E-mail : pedro.guilherme@fgv.br</p>
+        
+      </div>
+      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">Links Gerais</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Blog</a></li>
+          <li><a href="#"> Graduation</a></li>
+          <li><a href="#"> Terms & Conditions</a></li>
+          <li><a href="#"> Research</a></li>
+          <li><a href="#"> Ranking</a></li>
+          <li><a href="#"> Publications</a></li>
+          <li><a href="#"> Postgraduate</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">LATEST POST</h6>
+        <div class="post">
+            {% for  post in site.posts limit:3 %}
+                <p>{{ post.title }} <span> {{ post.date | date: '%B ' }}  {{ post.date | date: '%d,' }} {{ post.date | date: ' %Y' }}</span></p>
+            {% endfor %}  
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+            <blockquote cite="https://www.twitter.com/twitter"><a href="https://www.twitter.com/twitter">Twitter</a></blockquote>
+            <blockquote cite="https://www.youtube.com/youtube"><a href="https://www.youtube.com/channel/UC8DhN1cJi0QklBQot5hv_kg">Youtube</a></blockquote>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+  
+  
+</footer>
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+      <p>© 2016 - Pedro costa ferreira</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="http://www.pedrocostaferrira.github.io">pedrocostaferreira.github.io</a></li>
+        <li><a href="#">About </a></li>
+        <li><a href="http://www.pedrocostaferrira.github.io/blog">Blog</a></li>
+        <li><a href="http://www.pedrocostaferrira.github.io/blog/tags">Tags</a></li>
+        <li><a href="#">Contact us</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+</div><!--/.container-->
+  
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
+    
+    <!-- <script src="./Off Canvas Template for Bootstrap_files/jquery.min.js"></script> -->
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+   <!--  <script src="./Off Canvas Template for Bootstrap_files/bootstrap.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="./Off Canvas Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+    <script src="./Off Canvas Template for Bootstrap_files/offcanvas.js"></script> -->
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script> 
+
+    <script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+<!-- facebook share button -->
+<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+    
+    
+<!-- twitter share button -->
+
+
+    
+    
+		</body>
+	</html>
