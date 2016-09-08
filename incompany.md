@@ -12,7 +12,7 @@ title: Incompany
                 <div class="media">
                   <div class="media-left">
                     <a href="#">
-                      <img src="images/logo.png"  class="media-object" alt="">
+                      <img src="images/logo.png"  class="media-object" alt="" width="60px">
                     </a>
                   </div><!-- /.media-left-->
                   <div class="media-body">
@@ -59,7 +59,7 @@ title: Incompany
                 <div class="media">
                   <div class="media-left">
                     <a href="#">
-                      <img src="/images/Light.png" width="130px" class="media-object" alt="Light S.A.">
+                      <img src="/images/Light.png" width="30px" class="media-object" alt="Light S.A.">
                     </a>
                   </div><!-- /.media-left-->
                   <div class="media-body">
@@ -97,7 +97,7 @@ title: Incompany
                 <div class="media">
                   <div class="media-left">
                     <a href="#">
-                      <img src="/images/aneel.png" width="130px" class="media-object" alt="Light S.A.">
+                      <img src="/images/aneel.png" width="30px" class="media-object" alt="Light S.A.">
                     </a>
                   </div><!-- /.media-left-->
                   <div class="media-body">
