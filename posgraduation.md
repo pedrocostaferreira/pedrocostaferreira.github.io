@@ -4,14 +4,11 @@ title: Pos-graduation
 ---
 
 
-# {{ page.title }}
-
-
-## Traking e Projeção da inflação
+### Traking e Projeção da inflação
 
 
 
-## Análise de Séries Temporais para o Setor Elétrico
+### Análise de Séries Temporais para o Setor Elétrico
   
  <p>O curso aborda os principais métodos de modelagem de dados, enfatizando aspectos teóricos fundamentais e aplicando os modelos aprendidos 
  em estudos de caso que relacionam o “problema” do setor elétrico brasileiro com o modelo abordado.</p>
