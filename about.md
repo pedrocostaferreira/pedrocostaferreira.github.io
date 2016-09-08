@@ -7,7 +7,7 @@ title: About me
 
 
 <div class="bs-callout bs-callout-default">
-             <img src="images/pedro.jpg" class="img-circle" alt="Pedro Costa Ferreira" width="30px" height="30px"> About me
+             <img src="images/pedro.jpg" class="img-circle" alt="Pedro Costa Ferreira" width="60px" height="60px"> About me
             <p>
                 Doutor em Engenharia Elétrica - (Decision Support Methods) e Mestre em Economia. Co-autor dos livros "Planejamento da Operação de 
                 Sistemas Hidrotérmicos no Brasil" e “Análise de Séries Temporais usando o R: um curso introdutório”. É o primeiro pesquisador da América 
