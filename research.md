@@ -68,5 +68,33 @@ e robusta.
         </nav> <!-- /panel panel-warning -->
       </div> <!--/.col-xm-12 col-xs-12  -->     
       
+      
+      
+      
+       <div class="col-xm-12 col-xs-12">
+         <nav class="panel panel-default">
+           <div class="panel-heading"></div>  
+              <div class="panel-body">
+                <div class="media">
+                  <div class="media-left">
+                     
+                     <a href="#"><img class="media-object" src="images/logo_novo.png"></a>
+                  
+                  
+                  </div>
+                  
+                  <div class="media-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="https://pedroferreira.shinyapps.io/incerteza"></iframe>
+                    </div>
+                  </div> <!-- /media-body -->  
+                </div>  <!-- /media -->
+              </div> <!-- panel body -->
+        </nav> <!-- /panel panel-warning -->
+      </div> <!--/.col-xm-12 col-xs-12  -->     
+      
+      
+      
+      
     </div><!--/.row-->
 
