@@ -84,9 +84,7 @@ e robusta.
                   </div>
                   
                   <div class="media-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="https://pedroferreira.shinyapps.io/incerteza"></iframe>
-                    </div>
+                    
                   </div> <!-- /media-body -->  
                 </div>  <!-- /media -->
               </div> <!-- panel body -->

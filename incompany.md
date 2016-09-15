@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-alternative
 title: Incompany
 ---
 
@@ -190,11 +190,6 @@ title: Incompany
 </div><!--/jumbotron-->
 
 
-<hr>
-
-
-
-
 <div class="jumbotron">
             <ul class="media-list">
               <li class="media">
@@ -225,3 +220,16 @@ title: Incompany
               </li><!--/li media -->
             </ul><!--/ul media-list -->
 </div><!--/jumbotron-->
+
+
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="..." alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+  </div>
+</div>
