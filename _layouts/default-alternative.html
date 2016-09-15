@@ -16,18 +16,22 @@
     <div class="list-group">
       <a class=list-item-active></a>
     </div>
+    {% for  post in site.posts limit:3 %} 
    <ul class="list-group">
       <li class="list-group-item">
-        <span class="label label-success">New</span>
+        <span class="label label-success">New</span> 
+         <span class="label label-default">
+         	<small><small>Por {{ post.author }} / {{ post.date | date: '%B ' }} {{ post.date | date: '%d,' }} {{ post.date | date: '%Y ' }}</small></small>
+         </span>
         <div class="media">
           <div class="media-left">
             <a href="#">
-              <img class="media-object" src="images/thumbnail.png"  alt="..." width=64px height=64px>
+               <img class="media-object" src="{{ post.image }}"  alt="..." width=64px height=64px>
             </a>
           </div>
         <div class="media-body">
-        <h4 class="media-heading">SER-Seminario internacional de estatística com R</h4>
-          <a href="blog.html">Resumo do post mais recente do blog.</a>
+        <h4 class="media-heading">{{ post.title }}</h4>
+          <a href="blog.html">{{ post.resumo }}</a>
           <hr>
           <h3><a href="#"><span class="label label-primary"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
           <a href="#"><span class="label label-info"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
@@ -36,69 +40,8 @@
         </div><!--/.media-->
       </li><!--/.li list-group-item-->
       </ul><!-- /.ul list-group-->
+      {% endfor %}  
       
-      <ul class="list-group">
-      <li class="list-group-item">
-        <span class="label label-success">New</span>
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="images/thumbnail.png"  alt="..." width=64px height=64px>
-            </a>
-          </div>
-        <div class="media-body">
-        <h4 class="media-heading">SER-Seminario internacional de estatística com R</h4>
-          <a href="blog.html">Resumo do post mais recente do blog.</a>
-          <hr>
-          <h3><a href="#"><span class="label label-primary"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
-          <a href="#"><span class="label label-info"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
-          <a href="#"><span class="label label-danger"><i class="fa fa-google-plus" aria-hidden="true"></i></span></a></h3>
-        </div><!--/.media-body-->
-        </div><!--/.media-->
-      </li><!--/.li list-group-item-->
-      </ul><!-- /.ul list-group-->
-      
-      <ul class="list-group">
-      <li class="list-group-item">
-        <span class="label label-success">New</span>
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="images/thumbnail.png"  alt="..." width=64px height=64px>
-            </a>
-          </div>
-        <div class="media-body">
-        <h4 class="media-heading">SER-Seminario internacional de estatística com R</h4>
-          <a href="blog.html">Resumo do post mais recente do blog.</a>
-          <hr>
-          <h3><a href="#"><span class="label label-primary"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
-          <a href="#"><span class="label label-info"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
-          <a href="#"><span class="label label-danger"><i class="fa fa-google-plus" aria-hidden="true"></i></span></a></h3>
-        </div><!--/.media-body-->
-        </div><!--/.media-->
-      </li><!--/.li list-group-item-->
-      </ul><!-- /.ul list-group-->
-      
-      <ul class="list-group">
-      <li class="list-group-item">
-        <span class="label label-success">New</span>
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="images/thumbnail.png"  alt="..." width=64px height=64px>
-            </a>
-          </div>
-        <div class="media-body">
-        <h4 class="media-heading">SER-Seminario internacional de estatística com R</h4>
-          <a href="blog.html">Resumo do post mais recente do blog.</a>
-          <hr>
-          <h3><a href="#"><span class="label label-primary"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
-          <a href="#"><span class="label label-info"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
-          <a href="#"><span class="label label-danger"><i class="fa fa-google-plus" aria-hidden="true"></i></span></a></h3>
-        </div><!--/.media-body-->
-        </div><!--/.media-->
-      </li><!--/.li list-group-item-->
-      </ul><!-- /.ul list-group-->
       
 </div><!--/.sidebar-offcanvas-->
 
