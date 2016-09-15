@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-relative
 title: About me
 ---
 
