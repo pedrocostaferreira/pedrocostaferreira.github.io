@@ -157,7 +157,7 @@ title: Incompany
                   </div><!-- /.media-left-->
                   <div class="media-body">
                    <strong><h4 class = "media-heading">Modelos de Previsão de curto e longo prazos - DURATEX S.A.</h4></strong>
-                    <strong>Professor Assistente</strong>
+                    
                     <br>
                       <h5>Consultor para previsão mensal e anual das linhas de produtos DURATEX (louças e metais) utilizando modelos univariados e de regressão dinâmica.</h5> 
                     </div><!--/media body-->
@@ -180,7 +180,7 @@ title: Incompany
                   </div><!-- /.media-left-->
                   <div class="media-body">
                    <strong><h4 class = "media-heading">Plano Estadual de Logística e Transporte em Minas Gerais (PELT - MG) - parceria com a FIPE</h4></strong>
-                    <strong>Professor Assistente</strong>
+                    
                     <br>
                       <h5>Plano Estadual de Logística e Transporte em Minas Gerais (PELT - MG) - Fundação Instituto de Pesquisas Econômicas, FIPE, Brasil.</h5> 
                     </div><!--/media body-->
@@ -201,7 +201,7 @@ title: Incompany
                   </div><!-- /.media-left-->
                   <div class="media-body">
                    <strong><h4 class = "media-heading">Cursos in company</h4></strong>
-                    <strong>Professor Assistente</strong>
+                    
                     <br>
                       <h5>Ministrei cursos in company em Modelos de Séries Temporais, Inferência Estatística, Modelos Econométricos de Séries 
                       Temporais, Estatística Básica, R software, Séries Temporais para o setor elétrico, entre outros, para as seguintes empresas:
@@ -220,16 +220,3 @@ title: Incompany
               </li><!--/li media -->
             </ul><!--/ul media-list -->
 </div><!--/jumbotron-->
-
-
-<div class="media">
-  <div class="media-left">
-    <a href="#">
-      <img class="media-object" src="..." alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">Media heading</h4>
-    ...
-  </div>
-</div>
