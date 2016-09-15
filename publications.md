@@ -12,7 +12,6 @@ title: Publications
   </div>
 
  <table class="table">
-                
                 <tbody>
                   <tr>
                     <td><span class="badge badge-inverse">1</span></td>
