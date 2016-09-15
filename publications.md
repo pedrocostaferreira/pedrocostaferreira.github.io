@@ -12,6 +12,7 @@ title: Publications
   </div>
 
  <table class="table">
+                
                 <tbody>
                   <tr>
                     <td><span class="badge badge-inverse">1</span></td>
@@ -433,7 +434,7 @@ title: Publications
                   </tr>
                   
                   <tr>
-                    <td><span class="badge badge-inverse">67</span></td>
+                    <td><span class="badge badge-inverse">66</span></td>
                     <td><a><strong>FERREIRA, P. G. C.</strong></a>; GONDIN JUNIOR, J. L. ; MATTOS, D. M. . vídeo-aulas Estatística com R. 2014. (Desenvolvimento de material didático ou instrucional - vídeo-aulas). <span class="label label-danger">2014</span></td>
                   </tr>
                   
