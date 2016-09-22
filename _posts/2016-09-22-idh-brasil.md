@@ -1,7 +1,7 @@
 ---
 title: A Evolução do IDH brasileiro
 author: Fernando Teixeira
-date: "`r Sys.Date()`"
+date: 2016-09-22
 image : /images/idh.jpg
 output: 
     html_document:
