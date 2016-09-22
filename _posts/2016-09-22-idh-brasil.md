@@ -1,7 +1,9 @@
 ---
+layout: post
 title: A Evolução do IDH brasileiro
 author: Fernando Teixeira
 date: 2016-09-22
+resumo: Uma breve análise da evolução do índice de desenvolvimento humano do Brasil.
 image : /images/idh.jpg
 output: 
     html_document:
