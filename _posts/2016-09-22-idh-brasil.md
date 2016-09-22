@@ -3,28 +3,27 @@ layout: post
 title: A Evolução do IDH brasileiro
 author: Fernando Teixeira
 date: 2016-09-22
-resumo: Uma breve análise da evolução do índice de desenvolvimento humano do Brasil.
+resumo: "Uma breve análise da evolução do índice de desenvolvimento humano do Brasil."
 image : /images/idh.jpg
-output: 
-    html_document:
-        fig_height: 5
-        fig_width: 10
-        fig_caption: yes
+tags:
+    - IDH
+    - Brasil
+    - Economia
 ---
-
+{% highlight r %}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(ggplot2, dplyr, stargazer, htmlTable, 
                xtable, zoo, tidyr, DT)
 ```
-
+{% endhighlight %}
 
 O valor do IDH de todos os países disponíveis na base de dados das [nações unidas](http://hdr.undp.org/en/data) foi capturado com o objetivo de melhor compreender a evolução do desenvolvimento humano nacional ao longo do tempo. Os países sul-americanos serão utilizados como parâmetro por estes apresentarem condições semelhantes às nossas, porém as observações não se limitarão à comparação a estes.
 
 ### Evolução do IDH - América do Sul
 
-
+{% highlight %}
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 setwd("C:/Users/fernando.teixeira/Dropbox/idh/")
@@ -35,6 +34,7 @@ colnames(thdi) = hdi[,2]
 
 
 
+
 thdi2 = t(na.omit(t(thdi)))
 colunas = colnames(thdi2)
 thdi2 = data.frame(thdi2)
@@ -42,9 +42,9 @@ colunas=substr(colunas,2,nchar(colunas))
 colnames(thdi2) = colunas
 
 ```
+{% endhighlight %}
 
-
-
+{% highlight %}
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}   
 hdiv=read.csv("hdi_values.csv", sep=",")
 thdiv = t(hdiv[,3:13])
@@ -78,8 +78,8 @@ as = data.frame(as)
 colnames(as) = sulamerica
 
 ```
-
-
+{% endhighlight %}
+{% highlight %}
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}   
     autoplot(zoo(as), facet=NULL) + geom_point() +
         labs(color="Países")+
@@ -95,7 +95,7 @@ colnames(as) = sulamerica
                                     "2010","2011","2012","2013","2014"))
         
 ```
-
+{% endhighlight %}
 
 * Neste primeiro gráfico é possível observar a evolução comparativa do IDH brasileiro contra seus pares sul-americanos. O país salta de um IDH de 0.547 em 1980 para um índice de 0.755 no final de 2014. Por esta fotografia, o país sai da nona e última posição para o quinto lugar. Percentualmente a evolução do Brasil foi de 38%, que também é o maior valor do período. O único outro país cuja evolução no período foi maior que 30% foi o Chile, cujo IDH avançou pouco mais do que este valor (Tabela 1).
 
@@ -103,7 +103,7 @@ colnames(as) = sulamerica
 &nbsp;
 &nbsp;
 &nbsp;
-
+{% highlight %}
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, results='asis', fig.align='center'}
 
     diff = as[11,] - as[1,]
@@ -119,7 +119,7 @@ colnames(as) = sulamerica
     
     
 ```
-
+{% endhighlight %}
 &nbsp;
 &nbsp;
 &nbsp;
@@ -131,6 +131,7 @@ colnames(as) = sulamerica
 
 ### Método de suavização: LOESS
 
+{% highlight %}
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, fig.lp="foo"}   
 
     idh = gather(cbind.data.frame(id=seq_len(nrow(as)), as), variable, value, -id)
@@ -153,13 +154,13 @@ colnames(as) = sulamerica
                                     "2010","2011","2012","2013","2014"))
 
 ```
-
+{% endhighlight %}
 
 * Entretanto, apesar da enorme evolução do IDH do Brasil no período é comum ver notícias falando em "queda no ranking". Em geral, estas notícias fazem referência à classificação dos países no mundo quando é utilizado por referência o índice de desenvolvimento humano. Estas notícias podem ser encontradas em rápida consulta ao Google. Levanta-se então a questão: estaria o país avançando em relação à américa do sul, porém perdendo terreno para o resto do mundo? Analisamos esta possibilidade a seguir.
 
 
 
-    
+ {% highlight %}   
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}    
     
     newthdi = matrix(ncol = length(thdi2[1,]), nrow = length(thdi2[,1]))
@@ -197,7 +198,7 @@ colnames(as) = sulamerica
     passados = data.frame(passados)
 
 ```
-
+{% endhighlight %}
 
 ### Ranking
 
@@ -207,7 +208,7 @@ colnames(as) = sulamerica
 
 * Como avaliamos que há uma redução na velocidade de crescimento a partir de 2000 (Gráfico 2), reavaliamos a performance do Brasil para o período. Os resultados não são tão animadores. O Brasil passou seis países (Tabela 2) e foi passado por sete (Tabela 3).
 
-
+{% highlight %}
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 
     newthdi = matrix(ncol = length(thdi2[1,]), nrow = length(thdi2[,1]))
@@ -244,7 +245,9 @@ colnames(as) = sulamerica
     passaram = data.frame(passaram)
 
 ```
+{% endhighlight %}
 
+{% highlight %}
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, eval=TRUE}
 
 thdi = t(hdi[,3:13])
@@ -296,6 +299,9 @@ colnames(thdi2) = colunas
     row.names(passados) = c(2000,2005,2010,2011,2012,2013,2014)
     
 ```
+{% endhighlight %}
+
+{% highlight %}
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, results='asis'}
     newthdi = matrix(ncol = length(thdi2[1,]), nrow = length(thdi2[,1]))
@@ -340,14 +346,14 @@ colnames(thdi2) = colunas
         star2[3:(length(star2))], "</center>")
     
 ```    
-    
+{% endhighlight %}    
 
 * Os resultados são particularmente preocupantes se observarmos que alguns dos países que passaram o Brasil são a Turquia e a Venezuela. O primeiro por ser um país com uma economia e população relativamente grandes e, por conseguinte, ter desafios a serem superados de magnitude semelhante à nossa. O segundo por ser um vizinho nosso, sujeito assim a condições geopolíticas semelhantes às brasileiras. 
 
 * Pelo outro lado, os países que passamos são pouco relevantes na economia mundial, tais como Santa Lúcia, ou então envolvidos em (ou muito próximos à) guerra civil recente, caso da Líbia.
 
     
-    
+{% highlight %}
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, results='asis'}
         star3= capture.output(htmlTable(passaram, type = "html", caption = "<center><font size='4'><b>Tabela 3</b>: Países que passaram o Brasil</font></center>"))
     cat("<center>", star3[1:2],
@@ -356,6 +362,8 @@ colnames(thdi2) = colunas
     
     
 ```    
+{% highlight %}
+
 
 &nbsp;
 &nbsp;
@@ -375,6 +383,8 @@ colnames(thdi2) = colunas
 &nbsp;
 &nbsp;
 &nbsp;
+
+{% highlight %}
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, results='asis'}
 
@@ -414,10 +424,12 @@ star21= capture.output(htmlTable(rr, type = "html", caption = "<center><font siz
         '<col width="130"> <col width="50"> <col width="50"> <col width="50">', 
         star21[3:(length(star21))], "</center>")
 ```
-
+{% endhighlight %}
 
 * Para contrapor esta limitação, testamos o IDH do Brasil contra o Top-10, tabela abaixo. Para tal, subtraímos o valor do IDH brasileiro do máximo, mínimo, mediana, quartis e média do Top-10 de forma a termos um quadro da evolução da diferença absoluta de IDH destes países quando comparados ao Brasil.     
     
+
+{% highlight %}
 ```{r, message=FALSE, warning=FALSE, echo=FALSE, results='asis'}    
 #TOP 10
 
@@ -448,6 +460,8 @@ star3= capture.output(htmlTable(t3, type = "html", caption = "<center><font size
 
 ``` 
 
+{% endhighlight %}
+
 &nbsp;
 &nbsp;
 &nbsp;
@@ -461,6 +475,8 @@ star3= capture.output(htmlTable(t3, type = "html", caption = "<center><font size
 
 #### A tabela com o ranking
 
+{% highlight %}
+
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 colnames(hdiv) = c("Rank","País","1980","1985","1990","1995","2000","2005",
                    "2010","2011","2012","2013","2014")
@@ -469,3 +485,4 @@ hdiv = hdiv[,c(2,1,3:13)]
 
 datatable(hdiv, rownames = FALSE, options = list(pageLength = 25))
 ```
+{% endhighlight %}
