@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Evolução do IDH brasileiro
-resumo: A missão central do R Consortium é fornecer suporte através da identificação, desenvolvimento e implementação de projetos de infraestrutura
+resumo: Uma breve e interessante análise da evolução do IDH brasileiro
 date: 2016-09-26
 author: Fernando Teixeira
 image: /images/idh.jpg" 
