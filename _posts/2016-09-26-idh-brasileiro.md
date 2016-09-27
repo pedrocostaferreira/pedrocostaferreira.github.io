@@ -15,7 +15,8 @@ tags:
 
 ### Evolução do IDH - América do Sul
 
-![alt text](/images/idh_sa.pdf)
+
+<img src = "/images/idh_sa.jpg" width = "200px">
 
 -   Neste primeiro gráfico é possível observar a evolução comparativa do IDH brasileiro contra seus pares sul-americanos. O país salta de um IDH de 0.547 em 1980 para um índice de 0.755 no final de 2014. Por esta fotografia, o país sai da nona e última posição para o quinto lugar. Percentualmente a evolução do Brasil foi de 38%, que também é o maior valor do período. O único outro país cuja evolução no período foi maior que 30% foi o Chile, cujo IDH avançou pouco mais do que este valor (Tabela 1).
 
@@ -28,7 +29,8 @@ Tabela 1: Evolução IDH
 
 -   Estes números deveriam indicar um futuro excelente para o desenvolvimento humano do país, entretanto ao efetuarmos uma suavização dos valores pelo método de LOESS é clara a inflexão nas curvas a partir do ano 2000, quando o crescimento do IDH começa a desacelerar.
 
-![alt text](/images/idh_suav.pdf)
+
+<img src = "/images/idh_suav.jpg" width = "200px">
 
 -   Entretanto, apesar da enorme evolução do IDH do Brasil no período é comum ver notícias falando em "queda no ranking". Em geral, estas notícias fazem referência à classificação dos países no mundo quando é utilizado por referência o índice de desenvolvimento humano. Estas notícias podem ser encontradas em rápida consulta ao Google. Levanta-se então a questão: estaria o país avançando em relação à américa do sul, porém perdendo terreno para o resto do mundo? Analisamos esta possibilidade a seguir.
 
