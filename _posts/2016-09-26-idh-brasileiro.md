@@ -30,7 +30,7 @@ Tabela 1: Evolução IDH
 -   Estes números deveriam indicar um futuro excelente para o desenvolvimento humano do país, entretanto ao efetuarmos uma suavização dos valores pelo método de LOESS é clara a inflexão nas curvas a partir do ano 2000, quando o crescimento do IDH começa a desacelerar.
 
 
-<img src = "/images/idh_suav.jpg" width = "200px">
+<img src = "/images/idh_suav.jpg" class="responsive-img">
 
 -   Entretanto, apesar da enorme evolução do IDH do Brasil no período é comum ver notícias falando em "queda no ranking". Em geral, estas notícias fazem referência à classificação dos países no mundo quando é utilizado por referência o índice de desenvolvimento humano. Estas notícias podem ser encontradas em rápida consulta ao Google. Levanta-se então a questão: estaria o país avançando em relação à américa do sul, porém perdendo terreno para o resto do mundo? Analisamos esta possibilidade a seguir.
 

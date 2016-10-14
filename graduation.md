@@ -40,15 +40,15 @@ como, por exemplo, s´eries de vendas, receitas, despesas, pre¸cos, demanda, en
   
   <ul>
   
-  a) Processos Auto-Regressivos - AR(p)
-  b) Processos M´edias M´oveis MA(q)
-  c) Processos Auto-Regressivos de M´edias M´oveis ARMA(p,q)
-  d) Fun¸c˜ao de Autocorrela¸c˜ao - FAC
-  e) Fun¸c˜ao de Autocorrela¸c˜ao Parcial FACP
-  f) Identifica¸c˜ao
-  g) Estima¸c˜ao
-  h) Diagn´ostico dos Res´ıduos
-  i) Previs˜ao
+  <li><strong>a)</strong> Processos Auto-Regressivos - AR(p)</li>
+  <li><strong>b)</strong> Processos Médias Móveis MA(q)</li>
+  <li><strong>c)</strong> Processos Auto-Regressivos de Médias Móveis ARMA(p,q)</li>
+  <li><strong>d)</strong> Função de Autocorrelação - FAC</li>
+  <li><strong>e)</strong> Funçãao de Autocorrelação Parcial FACP</li>
+  <li><strong>f)</strong> Identificação</li>
+  <li><strong>g)</strong> Estimação</li>
+  <li><strong>h)</strong> Diagnóstico dos Resíduos</li>
+  <li><strong>i)</strong> Previsão</li>
   </ul>
   <a href="https://pedroferreira.shinyapps.io/SeriesTemporais/_w_809d9698/ementa1.pdf" target="blank">Clique aqui</a>  para ver a ementa do curso.
   
