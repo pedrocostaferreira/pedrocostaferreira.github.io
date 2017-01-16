@@ -12,12 +12,27 @@ title: Publications
   </div>
 
  <table class="table">
-                
                 <tbody>
+                
+                
                   <tr>
                     <td><span class="badge badge-inverse">1</span></td>
-                     <td><a href="#" target="blank">FERREIRA, P. G. C.</strong></a>. Economia da Incerteza. O Globo, <a href="http://oglobo.globo.com/" target="blank">http://oglobo.globo.com/</a>, <span class="label label-danger">16 maio 2016</span></td>
+                     <td><a href="#" target="blank">FERREIRA, P. G. C.</strong></a>. Economia da Incerteza. O Globo, <a href="http://oglobo.globo.com/" target="blank">http://oglobo.globo.com/</a>, <span class="label label-danger">16 maio 2016</span> 
+                         
+                     </td>
+                     <td>  
+                       <div class="dropdown">
+                        <button class="btn btn-success btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                         Citation
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                         <li><a href="#">exemplo de citação</a></li>
+                        </ul>
+                      </div><!-- /dropdown-->
+                     </td>
                   </tr>
+                
                   
                    <tr>
                     <td><span class="badge badge-inverse">2</span></td>
@@ -401,7 +416,7 @@ title: Publications
                     <td><span class="badge badge-inverse">62</span></td>
                     <td><a><strong>FERREIRA, P. G. C.</strong></a>;   ALVIM, M. I. S. A. ; PEROBELLI, F. S ; ALMEIDA, E. S. . Análise Espacial da Produtividade do Setor Agrícola Brasileiro: 1991 - 2003. 2005 (Texto para Discussão NUPE/FEA).<span class="label label-danger">1991 - 2003. 2005</span></td>
                   </tr>
-                 
+                  
                   
                 </tbody>
             </table>
