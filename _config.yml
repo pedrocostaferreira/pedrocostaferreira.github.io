@@ -24,9 +24,7 @@ scholar:
   group_by: none
   group_order: ascending
 
-  source: ./_bibliography
-  bibliography: pedroguilherme.bib
-  bibliography_template: "{{reference}}"
+  
 
   replace_strings: true
   join_strings:    true
