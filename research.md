@@ -83,7 +83,7 @@ e robusta.
                 <div class="media">
                   <div class="media-left">
                      
-                     <a href="#"><img class="media-object" src="images/logo_novo.png"></a>
+                     <a href="#"><img class="media-object" src="#"></a>
                   
                   
                   </div>
