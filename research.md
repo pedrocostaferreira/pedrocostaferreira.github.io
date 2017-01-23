@@ -17,7 +17,7 @@ title: Research
                  
                   <div class="media-left">
                      <!--apresentacao pacote bets--> 
-                      <iframe class="media-object" src="//slides.com/johnazevedo/bets-1/embed" width="570" height="440" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                     <iframe src="//slides.com/johnazevedo/deck-5/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                   </div>
                
                   <div class="media-body"><p></p>
