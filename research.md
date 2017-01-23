@@ -10,7 +10,7 @@ title: Research
      
      
       <div class="col-xm-12 col-xs-12">
-          <nav class="panel panel-info">
+          <nav class="panel panel-defaut">
             <div class="panel-heading">BETS package</div>  
               <div class="panel-body">
                 <div class="media">
@@ -52,7 +52,7 @@ e robusta.
       </div>  <!-- /col-xm-12 col-xs-12 -->  
         
       <div class="col-xm-12 col-xs-12">
-         <nav class="panel panel-warning">
+         <nav class="panel panel-defaut">
            <div class="panel-heading">Indicador  de Incerteza</div>  
               <div class="panel-body">
                 <div class="media">
