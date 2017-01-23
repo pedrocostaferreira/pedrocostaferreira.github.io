@@ -29,16 +29,10 @@ title: About me
         </p>
 </div> 
  
-<div class="list-group">
-  <a href="#" class="list-group-item active">
-    <h4 class="list-group-item-heading">Acesse minhas redes sociais:</h4>
-    <p class="list-group-item-text"></p>
-  </a>
-  
-  <a href="#" class="list-group-item"><i class="fa fa-facebook-square" aria-hidden="true"></i> <strong>Twitter</strong></a>
-  <a href="#" class="list-group-item"><i class="fa fa-twitter-square" aria-hidden="true"></i> <strong>Facebook</strong></a>
-  <a href="https://br.linkedin.com/in/pedro-costa-ferreira-b6b22724" class="list-group-item"><i class="fa fa-linkedin-square" aria-hidden="true"></i> <strong>Linkedin</strong></a>
-</div>
+<script type="text/javascript" src="https://form.jotformz.com/jsform/70226208605651"></script>
+ 
+ 
+
 
   
 </div>
