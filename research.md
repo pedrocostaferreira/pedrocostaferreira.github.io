@@ -42,8 +42,8 @@ e robusta.
                       </pre>
                       <hr>
                       <div class="btn-group" role="group" aria-label="...">
-                       <button type="button" class="btn btn-default">GitHub <i class="fa fa-github" aria-hidden="true"></i></button>
-                       <button type="button" class="btn btn-default">Download <i class="fa fa-download" aria-hidden="true"></i></button>
+                       <a href="https://github.com/pedrocostaferreira/BETS"><button type="button" class="btn btn-default">GitHub <i class="fa fa-github" aria-hidden="true"></i></button></a>
+                      <a href="https://github.com/pedrocostaferreira/BETS/archive/master.zip"> <button type="button" class="btn btn-default">Download <i class="fa fa-download" aria-hidden="true"></i></button></a>
                       </div><!--/btn-group -->
                   </div> <!--/media-body -->
                 </div><!-- /media -->
