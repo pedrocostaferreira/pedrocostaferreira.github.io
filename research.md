@@ -30,6 +30,11 @@ e robusta.
                     </p>
                       <p><kbd>Instalando o pacote BETS direto do GitHub</kbd></p>
                       <pre>
+                      Para obter a versão do CRAN 
+                      install.package("BETS")
+                      
+                        # para obter sempre a versão em desenvolvimento
+                        # e acompanhar o precessod de criação:
                         install.packages("devtools")
                         require(devtools)
                         install_github("pedrocostaferreira/BETS")
