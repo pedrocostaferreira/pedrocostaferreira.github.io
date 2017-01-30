@@ -6,6 +6,13 @@ title: Incompany
 <!-- light -->
 
 
+<p>Nessa seção são apresentados alguns projetos que fiz em empresas públicas e privadas, colocando em prática as técnicas aprendidas na academia.  </p>
+
+<br>
+
+<h4>Coca-Cola S.A </h4>
+<p>Estudos e previsão das séries temporais de vendas de refrigerantes, sucos e água das engarrafadoras da Coca-Cola Brasil. Os modelos estimados levaram em conta variáveis físicas e econômicas que influenciam a venda dos produtos Coca-Cola. Atendendo as demandas do cliente foram feitas previsões de curto (1 ano), médio (3 anos) e longo (10 anos) prazos. Foram estimados modelos autorregressivos com defasagem distribuída levando em conta o problema da cointegração. Todos os resultados foram obtidos utilizando o software R.</p>
+
 <div class="jumbotron">
             <ul class="media-list">
               <li class="media">
@@ -58,13 +65,17 @@ title: Incompany
               <li class="media">
                 <div class="media">
                   <div class="media-left">
-                    <a href="#">
-                      <img src="/images/Light.png" width="60px" class="media-object" alt="Light S.A.">
-                    </a>
+                  
                   </div><!-- /.media-left-->
                   <div class="media-body">
                     <h4 class = "media-heading">Light S.A.</h4>
-                    <strong>Redução do Fundo de Contingenciamento Jurídico – Pequenas causas</strong>
+                    <strong>Redução do Fundo de Contingenciamento Jurídico – Pequenas causas <a href="https://github.com/pedrocostaferreira/Articles/tree/master/Conting%C3%AAncia-Judicia-na-concession%C3%A1ria-Light" target="blank">
+                              <button class="btn btn-default" type="button"><i class="fa fa-github fa-2x" aria-hidden="true"></i></button>
+                            </a>
+                            <a href="https://github.com/pedrocostaferreira/Articles/tree/master/Conting%C3%AAncia-Judicia-na-concession%C3%A1ria-Light" target="blank">
+                              <button class="btn btn-default" type="button"><i class="fa fa-github fa-2x" aria-hidden="true"></i></button>
+                            </a>
+                            </strong>
                     <br>
                       
                       <h5>Foi desenvolvido um projeto que permitiu a empresa Light S.A reduzir seu fundo de contingenciamento 
@@ -72,18 +83,7 @@ title: Incompany
                       contencioso jurídico da empresa e prevemos o número de processos um ano à frente, baseados nas ações
                       da empresa.</h5> 
                       
-                      <h5>Para maiores detalhes veja os artigos abaixo:</h5>
-                      
-                      <h5><ul class="nav navbar-nav navbar-left">
-                            <a href="https://github.com/pedrocostaferreira/Articles/tree/master/Conting%C3%AAncia-Judicia-na-concession%C3%A1ria-Light" target="blank">
-                              <li><button class="btn btn-default" type="button"><i class="fa fa-github fa-2x" aria-hidden="true"></i> "Previsão e análise financeira da contigência..." [CITENEL, 2013]</button></li>
-                            </a>
-                            <br>
-                            <a href="https://github.com/pedrocostaferreira/Articles/tree/master/Conting%C3%AAncia-Judicia-na-concession%C3%A1ria-Light" target="blank">
-                              <li><button class="btn btn-default" type="button"><i class="fa fa-github fa-2x" aria-hidden="true"></i> “Previsão e análise financeira da contingência...” [R. P&D Aneel]</button></li>
-                            </a>
-                          </ul><!-- /ul nav navbar-nav navbar-left-->
-                      </h5>
+                     
                     </div><!--/media body-->
                 </div><!--/media -->
               </li><!--/li media -->
@@ -96,30 +96,28 @@ title: Incompany
               <li class="media">
                 <div class="media">
                   <div class="media-left">
-                    <a href="#">
-                      <img src="/images/aneel.png" width="60px" class="media-object" alt="Light S.A.">
-                    </a>
+                   
                   </div><!-- /.media-left-->
                   <div class="media-body">
                     <h4 class = "media-heading">Agência Nacional de Energia Elétrica, ANEEL, Brasil.</h4>
-                    <strong>P&D Estratégico ANEEL - Duke Energy International, Geração Paranapanema, DEI-GP, Brasil.</strong>
+                    <strong>P&D Estratégico ANEEL - Duke Energy International, Geração Paranapanema, DEI-GP, Brasil.<a href="http://www.mddh.com.br/" target="blank">
+                              <button class="btn btn-default" type="button"><i class="fa fa-globe fa-2x" aria-hidden="true"></i> </button>
+                            </a> </strong>
                     <br>
                       
                       <h5>Consultor/Pesquisador no projeto de P&D PDE e PDDE (Sistemas Equivalentes), Modelo de Rateio do Bloco Hidráulico via Programação Não Linear e Geração de Cenários Sintéticos de Vazões e Energias</h5> 
                       
-                      <h5>Para maiores detalhes veja os artigos abaixo:</h5>
-                       <h5><ul class="nav navbar-nav navbar-left">
-                            <a href="http://www.mddh.com.br/" target="blank">
-                              <li><button class="btn btn-default" type="button"><i class="fa fa-globe fa-2x" aria-hidden="true"></i> www.mddh.com.br</button></li>
-                            </a>
-                          </ul><!-- /ul nav navbar-nav navbar-left-->
-                      </h5>
+                      
                       
                     </div><!--/media body-->
                 </div><!--/media -->
               </li><!--/li media -->
             </ul><!--/ul media-list -->
           </div><!--/jumbotron-->
+
+
+<button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#demo2">Mais projetos</button>
+  <div id="demo2" class="collapse">
 
 
 <div class="jumbotron">
@@ -220,3 +218,4 @@ title: Incompany
               </li><!--/li media -->
             </ul><!--/ul media-list -->
 </div><!--/jumbotron-->
+</div>

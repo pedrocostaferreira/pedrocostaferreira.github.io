@@ -23,7 +23,7 @@ como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entr
   
   
   
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Programa</button>
+  <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#demo">Programa</button>
   <div id="demo" class="collapse">
    <h3>Preliminares</h3>
   
@@ -68,7 +68,7 @@ tópico estatístico relacionado a índices de preço.</p>
 <p>Ao final do curso espera-se que o aluno tenha um conhecimento básico das técnicas estatísticas apresentadas, estando apto a aplicar as diferentes técnicas e utilizá-las como ferramentas de análise e tomada de decisão.</p>
 
 <br>
-<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Programa</button>
+<button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#demo2">Programa</button>
   <div id="demo2" class="collapse">
    <ul>
    <li><strong>1)</strong> 	Análise, descrição e interpretação de dados: tabelas de distribuição de frequência e gráficos</li>
