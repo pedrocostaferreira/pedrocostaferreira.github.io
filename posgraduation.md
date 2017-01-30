@@ -47,7 +47,8 @@ teórico adquirido nas aulas. Para facilitar o aprendizado o aluno contará com 
 vídeo-aulas, além de um referencial teórico para consultas. Ao fim do curso será oferecido um
 certificado aos alunos que cumprirem as exigências mínimas de frequência.</p>
 
-
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Programa</button>
+  <div id="demo" class="collapse">
 <h3>Programa <i class="fa fa-pencil-square-o" aria-hidden="true"></i></h3>
 
 <h4>1. Revisão dos Conceitos Básicos de Estatística</h4>
@@ -134,6 +135,6 @@ transferência)</li>
   </div>
  </a>
 
-
+</div>
 
 <br>

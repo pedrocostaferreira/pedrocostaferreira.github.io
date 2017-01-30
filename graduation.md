@@ -4,25 +4,28 @@ title: Graduation
 ---
 
 
-### Econometria de séries temporais 
+## Econometria de séries temporais 
   
  <p>Nesse curso iremos estudar os principais modelos univariados de Séries Temporais(Modelos Box & Jenkins, modelos GARCH etc), modelos 
-  econométricos multivariados (Modelos VAR, VECM) e aplicar os conceitos desenvolvidos no software R. Almeja-se, assim, transmitir os 
+  econométricos multivariados (Modelos VAR, VECM) e aplicar os conceitos desenvolvidos no software R.</p>
+  
+  <p> Almeja-se, assim, transmitir os 
   conhecimentos de modelagem estatística, análise de sensibilidade e previsão de séries temporais como, por exemplo, séries de vendas, receitas, 
   despesas, preços, demanda, entre outras.</p>
   
   <h3>Objetivo do curso <i class="fa fa-check-circle" aria-hidden="true"></i></h3>
   
-  <p> Estudar os principais modelos univariados de S´eries Temporais(Modelos Box & Jenkins,
-modelos GARCH etc), modelos econom´etricos multivariados (Modelos VAR, VECM) e
+  <p> Estudar os principais modelos univariados de Séries Temporais(Modelos Box & Jenkins,
+modelos GARCH etc), modelos econométricos multivariados (Modelos VAR, VECM) e
 aplicar os conceitos desenvolvidos no software R. Almeja-se, assim, transmitir os conhecimentos
-de modelagem estat´ıstica, an´alise de sensibilidade e previs˜ao de s´eries temporais
-como, por exemplo, s´eries de vendas, receitas, despesas, pre¸cos, demanda, entre outras.</p>
+de modelagem estatística, análise de sensibilidade e previsão de séries temporais
+como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entre outras.</p>
   
-  <h3>Programa <i class="fa fa-pencil-square-o" aria-hidden="true"></i></h3>
   
-  <h3>Preliminares</h3>
   
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Programa</button>
+  <div id="demo" class="collapse">
+   <h3>Preliminares</h3>
   
   <ul>
    <li><strong>a)</strong> Considerações Gerais;</li>
@@ -51,14 +54,35 @@ como, por exemplo, s´eries de vendas, receitas, despesas, pre¸cos, demanda, en
   <li><strong>i)</strong> Previsão</li>
   </ul>
   <a href="https://pedroferreira.shinyapps.io/SeriesTemporais/_w_809d9698/ementa1.pdf" target="blank">Clique aqui</a>  para ver a ementa do curso.
-  
 
+  </div>
 
+<hr>
 
+## Estatística 1
 
+<p>Apresentar uma abordagem conceitual, prática e aplicada em Análise de Dados, Estatística Descritiva, Probabilidades, Distribuições de Probabilidade, Teoria da Amostragem e Inferência Estatística. Ainda, será apresentada a teoria de Números Índices, importante 
+tópico estatístico relacionado a índices de preço.</p> 
 
-### Introdução a Estatística  
+ <h3>Objetivo do curso <i class="fa fa-check-circle" aria-hidden="true"></i></h3>
+<p>Ao final do curso espera-se que o aluno tenha um conhecimento básico das técnicas estatísticas apresentadas, estando apto a aplicar as diferentes técnicas e utilizá-las como ferramentas de análise e tomada de decisão.</p>
 
+<br>
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Programa</button>
+  <div id="demo2" class="collapse">
+   <ul>
+   <li><strong>1)</strong> 	Análise, descrição e interpretação de dados: tabelas de distribuição de frequência e gráficos</li>
+   <li><strong>2)</strong> 	Medidas de posição ou tendência central para dados discretos e agrupados;</li>
+   <li><strong>3)</strong> 	Medidas de variação para variáveis discretas e contínuas; </li>
+   <li><strong>4)</strong> 	Medidas de assimetria e curtose</li>
+   <li><strong>5)</strong> 	Análise Bidimensional</li>
+   <li><strong>6)</strong> 	Probabilidade: variáveis aleatórias discretas e contínuas, propriedades</li>
+   <li><strong>7)</strong> 	Distribuições de probabilidade e aplicações para variáveis discretas: Uniforme, Bernoulli, Binomial, Poisson;</li>
+   <li><strong>8)</strong> 	Distribuições de probabilidade e aplicações para variáveis contínuas: Uniforme, Normal, Normal Padrão, Exponencial</li>
+   <li><strong>9)</strong>	Teoria da Amostragem</li>
+   <li><strong>10)</strong>	Números Índices</li>
+  </ul>
+  </div>
 
 
 <br>
