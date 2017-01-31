@@ -55,7 +55,7 @@ e robusta.
 
 <div class="col-xm-12 col-xs-12">
           <nav class="panel panel-success">
-            <div class="panel-heading">Indicador de Inscerteza</div>  
+            <div class="panel-heading">Indicador de Incerteza</div>  
               <div class="panel-body">
                 <div class="media">
                  
