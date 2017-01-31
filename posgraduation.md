@@ -10,7 +10,7 @@ title: Pos-graduation
 
 ## Análise de Séries Temporais para o Setor Elétrico 
   
-  <p>  Análise de séries temporais compreende métodos de análise de dados com o objetivo
+  <p align='justify'>  Análise de séries temporais compreende métodos de análise de dados com o objetivo
 de extrair estatísticas significativas e características relevantes dos dados. Na tomada de
 decisão dos agentes econômicos, particularmente dos agentes do setor elétrico brasileiro
 (SEB), dados de cargas e afluências, além de suas previsões, constituem informações
@@ -22,24 +22,24 @@ comportamento do consumidor nos segmentos residencial, comercial e industrial; d
 outras.
   </p>
   
-  <p>
+  <p align='justify'>
   Devido à natureza dos dados de cargas e afluências, não há um único método de
 modelagem capaz de revelar todas as suas características. Nesse sentido, esse curso abordará
 os principais métodos de modelagem de dados, enfatizando aspectos teóricos fundamentais e
 aplicando os modelos aprendidos em estudos de caso que relacionam o “problema” do setor
 com o modelo abordado</p>
 
-<p>O curso pretende abordar os aspectos teóricos fundamentais de cada modelo, além de
+<p align='justify'>O curso pretende abordar os aspectos teóricos fundamentais de cada modelo, além de
 exercícios, implementação de modelos utilizando pacotes computacionais, e exemplos de
 modelos de previsão de carga, de afluências e de preços de energia elétrica no horizonte de
 curto e médio prazo.</p>
 
-<p>O curso proposto é indicado para profissionais do Setor Elétrico e para alunos de
+<p align='justify'>O curso proposto é indicado para profissionais do Setor Elétrico e para alunos de
 graduação e pós-graduação em engenharia, estatística, matemática e áreas correlatas,
 interessados em compreender os modelos que dão suporte à tomada de decisão dos agentes do
 setor elétrico brasileiro.</p>
 
-<p>Um importante diferencial do curso é o uso do pacote estatístico R, um dos softwares
+<p align='justify'>Um importante diferencial do curso é o uso do pacote estatístico R, um dos softwares
 mais utilizados por profissionais em análise de dados e que contempla diversas bibliotecas
 com funções estatísticas e de séries temporais. Aos alunos, será oferecido o treinamento em 
 algumas dessas bibliotecas, que permitirá ao aluno pôr em prática todo o conhecimento
@@ -47,7 +47,7 @@ teórico adquirido nas aulas. Para facilitar o aprendizado o aluno contará com 
 vídeo-aulas, além de um referencial teórico para consultas. Ao fim do curso será oferecido um
 certificado aos alunos que cumprirem as exigências mínimas de frequência.</p>
 
-<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Programa</button>
+<button type="button" class="btn btn-default btn-block" data-toggle="collapse" data-target="#demo">Programa</button>
   <div id="demo" class="collapse">
 <h3>Programa <i class="fa fa-pencil-square-o" aria-hidden="true"></i></h3>
 

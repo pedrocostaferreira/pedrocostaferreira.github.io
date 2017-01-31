@@ -6,16 +6,16 @@ title: Graduation
 
 ## Econometria de séries temporais 
   
- <p>Nesse curso iremos estudar os principais modelos univariados de Séries Temporais(Modelos Box & Jenkins, modelos GARCH etc), modelos 
+ <p align='justify'>Nesse curso iremos estudar os principais modelos univariados de Séries Temporais(Modelos Box & Jenkins, modelos GARCH etc), modelos 
   econométricos multivariados (Modelos VAR, VECM) e aplicar os conceitos desenvolvidos no software R.</p>
   
-  <p> Almeja-se, assim, transmitir os 
+  <p align='justify'> Almeja-se, assim, transmitir os 
   conhecimentos de modelagem estatística, análise de sensibilidade e previsão de séries temporais como, por exemplo, séries de vendas, receitas, 
   despesas, preços, demanda, entre outras.</p>
   
   <h3>Objetivo do curso <i class="fa fa-check-circle" aria-hidden="true"></i></h3>
   
-  <p> Estudar os principais modelos univariados de Séries Temporais(Modelos Box & Jenkins,
+  <p align='justify'> Estudar os principais modelos univariados de Séries Temporais(Modelos Box & Jenkins,
 modelos GARCH etc), modelos econométricos multivariados (Modelos VAR, VECM) e
 aplicar os conceitos desenvolvidos no software R. Almeja-se, assim, transmitir os conhecimentos
 de modelagem estatística, análise de sensibilidade e previsão de séries temporais
@@ -23,7 +23,7 @@ como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entr
   
   
   
-  <button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#demo">Programa</button>
+  <button type="button" class="btn btn-default btn-block" data-toggle="collapse" data-target="#demo">Programa</button>
   <div id="demo" class="collapse">
    <h3>Preliminares</h3>
   
@@ -61,14 +61,14 @@ como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entr
 
 ## Estatística 1
 
-<p>Apresentar uma abordagem conceitual, prática e aplicada em Análise de Dados, Estatística Descritiva, Probabilidades, Distribuições de Probabilidade, Teoria da Amostragem e Inferência Estatística. Ainda, será apresentada a teoria de Números Índices, importante 
+<p align='justify'>Apresentar uma abordagem conceitual, prática e aplicada em Análise de Dados, Estatística Descritiva, Probabilidades, Distribuições de Probabilidade, Teoria da Amostragem e Inferência Estatística. Ainda, será apresentada a teoria de Números Índices, importante 
 tópico estatístico relacionado a índices de preço.</p> 
 
  <h3>Objetivo do curso <i class="fa fa-check-circle" aria-hidden="true"></i></h3>
-<p>Ao final do curso espera-se que o aluno tenha um conhecimento básico das técnicas estatísticas apresentadas, estando apto a aplicar as diferentes técnicas e utilizá-las como ferramentas de análise e tomada de decisão.</p>
+<p align='justify'>Ao final do curso espera-se que o aluno tenha um conhecimento básico das técnicas estatísticas apresentadas, estando apto a aplicar as diferentes técnicas e utilizá-las como ferramentas de análise e tomada de decisão.</p>
 
 <br>
-<button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#demo2">Programa</button>
+<button type="button" class="btn btn-default btn-block" data-toggle="collapse" data-target="#demo2">Programa</button>
   <div id="demo2" class="collapse">
    <ul>
    <li><strong>1)</strong> 	Análise, descrição e interpretação de dados: tabelas de distribuição de frequência e gráficos</li>

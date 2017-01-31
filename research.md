@@ -22,7 +22,7 @@ title: Research
                
                   <div class="media-body"><p></p>
                     <h4>Descrição</h4>
-                    <p>O pacote BETS (sigla para Brazilian Economic Time Series) para o R (R Core Team, 2012) fornece, de
+                    <p align='justify'>O pacote BETS (sigla para Brazilian Economic Time Series) para o R (R Core Team, 2012) fornece, de
 maneira descomplicada, as mais relevantes séries temporais econômicas do Brasil, além de diversas
 ferramentas para analisá-las. O BETS preenche uma lacuna no processo de obtenção de dados no
 Brasil, na medida em que unifica os pontos de acesso e oferece uma interface bastante simples, flexível
@@ -65,9 +65,17 @@ e robusta.
                   </div>
                
                   <div class="media-body"><p></p>
-                  <br>
+                  
                     <h4>Descrição</h4>
-                    <p>O Indicador de Incerteza da Economia, divulgado mensalmente pela Fundação Getúlio Vargas por intermédio do Instituto Brasileiro de Economia, visa construir uma proxy para a incerteza econômica no Brasil. Frank Knight (1921) define incerteza como a inabilidade das pessoas em prever a probabilidade associada a  certos eventos, tendo a literatura recente discutido largamente sobre seus efeitos na tomada de decisão de agentes políticos e financeiros. Mensura-se a incerteza econômica considerando a frequência de notícias com menção à incerteza, a dispersão nas previsões dos especialistas tanto para a taxa de câmbio quanto para o IPCA e a volatilidade do mercado acionário. Essas três medidas, em conjunto, minimizam impactos que cada fator pode isoladamente ter no indicador final. </p>
+                    <p align='justify'>O Indicador de Incerteza da Economia, divulgado mensalmente pela Fundação Getúlio Vargas por 
+                    intermédio do Instituto Brasileiro de Economia, visa construir uma proxy para a incerteza econômica no Brasil. 
+                    Frank Knight (1921) define incerteza como a inabilidade das pessoas em prever a probabilidade associada a  
+                    certos eventos, tendo a literatura recente discutido largamente sobre seus efeitos na tomada de decisão de
+                    agentes políticos e financeiros.</p>
+                    
+                    
+                   <p align='justify'> Mensura-se a incerteza econômica considerando a frequência de notícias com
+                    menção à incerteza, a dispersão nas previsões dos especialistas tanto para a taxa de câmbio quanto para o IPCA e a volatilidade do mercado acionário. Essas três medidas, em conjunto, minimizam impactos que cada fator pode isoladamente ter no indicador final. </p>
   
                       <hr>
                       
@@ -92,9 +100,9 @@ e robusta.
                   </div>
                
                   <div class="media-body"><p></p>
-                  <br>
+                  
                     <h4>Descrição</h4>
-                    <p>A quantidade de empresas que utilizam “Big Data e Data Science” para buscar soluções é extenso. Por exemplo, os Data Scientists do Walmart, maior rede varejista do mundo, em um Halloween perceberam, através do monitoramento das vendas e análise dos dados, que um novo cookie (é um biscoito e não um pequeno pacote de dados enviados de um website para o navegador do usuário quando o usuário visita um site) estava com as vendas abaixo do esperado em algumas lojas. Tal fato, fez com que o laboratório de dados acionasse o departamento de vendas, que descobriram que nessas lojas os cookies não haviam sido colocados na prateleira. </p>
+                    <p align='justify'>A quantidade de empresas que utilizam “Big Data e Data Science” para buscar soluções é extenso. Por exemplo, os Data Scientists do Walmart, maior rede varejista do mundo, em um Halloween perceberam, através do monitoramento das vendas e análise dos dados, que um novo cookie (é um biscoito e não um pequeno pacote de dados enviados de um website para o navegador do usuário quando o usuário visita um site) estava com as vendas abaixo do esperado em algumas lojas. Tal fato, fez com que o laboratório de dados acionasse o departamento de vendas, que descobriram que nessas lojas os cookies não haviam sido colocados na prateleira. </p>
   
                       <hr>
                      
@@ -118,7 +126,14 @@ e robusta.
                
                   <div class="media-body"><p></p>
                     <h4>Descrição</h4>
-                    <p>As medidas de núcleo de inflação têm sido utilizadas por autoridades monetárias como ferramenta para medir a estabilização dos preços. Em países com inflação elevada, como é o caso do Brasil, no entanto, os núcleos tradicionais não parecem trazer muita informação sobre o nível geral dos preços. Mostra-se que as medidas apresentam viés, resultando na subestimação da tendência da inflação, fraca capacidade de atração e previsão da inflação (características indesejáveis segundo a literatura de núcleo da inflação). Por isso, apresenta-se uma nova medida, o núcleo triplo filtro, que filtra a inflação de três maneiras: médias aparadas, ajuste sazonal e médias móveis. Os resultados permitem dizer que o núcleo triplo filtro, além de trazer mais informação a respeito da trajetória da inflação do que os núcleos tradicionais, fornece uma visão mais atual sobre o estado da inflação do que a inflação acumulada em 12 meses (medida comumente usada pelo público em geral no Brasil para avaliar a trajetória da inflação). </p>
+                    <p align='justify'>As medidas de núcleo de inflação têm sido utilizadas por autoridades monetárias como ferramenta para medir a 
+                    estabilização dos preços. Em países com inflação elevada, como é o caso do Brasil, no entanto, os núcleos tradicionais 
+                    não parecem trazer muita informação sobre o nível geral dos preços. Mostra-se que as medidas apresentam viés,
+                    resultando na subestimação da tendência da inflação, fraca capacidade de atração e previsão da inflação
+                    (características indesejáveis segundo a literatura de núcleo da inflação). Por isso, apresenta-se uma nova medida, 
+                    o núcleo triplo filtro, que filtra a inflação de três maneiras: médias aparadas, ajuste sazonal e médias móveis.</p>
+                    
+                    <p align='justify'>Os resultados permitem dizer que o núcleo triplo filtro, além de trazer mais informação a respeito da trajetória da inflação do que os núcleos tradicionais, fornece uma visão mais atual sobre o estado da inflação do que a inflação acumulada em 12 meses (medida comumente usada pelo público em geral no Brasil para avaliar a trajetória da inflação). </p>
                       
                       <hr>
                      <div class="btn-group" role="group" aria-label="...">
@@ -146,14 +161,14 @@ e robusta.
                
                   <div class="media-body"><p></p>
                     <h4>Descrição</h4>
-                    <p>A inflação é uma variável econômica chave para formuladores de políticas econômicas
+                    <p align='justify'>A inflação é uma variável econômica chave para formuladores de políticas econômicas
 em quase todos os países, uma vez que para a maior parte da população o impacto das
 alterações nos níveis de preços e salários sobre o seu poder de compra é sensível e, em
 muitos casos, bastante relevante. Há ainda outros efeitos igualmente relevantes para a
 população, como utuações nas taxas de desemprego, investimento e níveis de riqueza,
 dentre outros.</p>
 
-<p>No Brasil, onde conviveu-se durante muitos anos com taxas altas de inflação e hiperinflção, a trajetória dos preços é exaustivamente monitorada por inumeros prossionais em
+<p align='justify'>No Brasil, onde conviveu-se durante muitos anos com taxas altas de inflação e hiperinflção, a trajetória dos preços é exaustivamente monitorada por inumeros prossionais em
 diversos setores da economia, tanto no setor público quanto no setor privado financeiro
 e n nanceiro. Os motivos são diversos: desde a previsão da taxa básica de juros e
 mudanças nos preços dos ativos financeiros passando pela indexação dos preços de contratos de imóveis, aluguéis e reajustes salariais.</p>
