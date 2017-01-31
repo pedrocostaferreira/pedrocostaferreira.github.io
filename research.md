@@ -161,19 +161,13 @@ e robusta.
                
                   <div class="media-body"><p></p>
                     <h4>Descrição</h4>
-                    <p align='justify'>A inflação é uma variável econômica chave para formuladores de políticas econômicas
-em quase todos os países, uma vez que para a maior parte da população o impacto das
-alterações nos níveis de preços e salários sobre o seu poder de compra é sensível e, em
-muitos casos, bastante relevante. Há ainda outros efeitos igualmente relevantes para a
-população, como utuações nas taxas de desemprego, investimento e níveis de riqueza,
-dentre outros.</p>
+                    <p align='justify'>Dando continuidade a parceria firmada em setembro de 2014, a Escola de Matemática Aplicada (FGV/EMAp) e o Instituto Brasileiro de Economia (FGV/IBRE) propõem a continuação do projeto “Proposta de criação de um Índice Espacial de Preços ao Consumidor (IEPC-RJ) por regiões da cidade do Rio de Janeiro”. </p> 
+                    <p align='justify'>Durante este projeto todas as metas estabelecidas foram cumpridas, a saber: a) Tratamento dos dados das séries de preços do IBRE; b) construção de banco de dados com extensões espaciais e provisão para o cotejamento com séries de preços online; c)  georreferenciamento dos informantes; d) análise de distribuição espacial de informantes; e) análise das séries temporais de preços nas 5 Aps (áreas de planejamento) do Rio de Janeiro e f) prototipação das tecnologias, desenho e automação de processo de filtragem, processamento e visualização de dados em site animado.
 
-<p align='justify'>No Brasil, onde conviveu-se durante muitos anos com taxas altas de inflação e hiperinflção, a trajetória dos preços é exaustivamente monitorada por inumeros prossionais em
-diversos setores da economia, tanto no setor público quanto no setor privado financeiro
-e n nanceiro. Os motivos são diversos: desde a previsão da taxa básica de juros e
-mudanças nos preços dos ativos financeiros passando pela indexação dos preços de contratos de imóveis, aluguéis e reajustes salariais.</p>
-                      
-                      
+</p>
+
+
+                    
                       <hr>
                      <div class="btn-group" role="group" aria-label="...">
                        
