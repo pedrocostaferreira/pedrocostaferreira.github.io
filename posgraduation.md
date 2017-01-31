@@ -6,7 +6,186 @@ title: Pos-graduation
 
 ## Traking e Projeção da inflação
 
-<p>Em construção</p>
+
+<br>
+
+
+<p align="justify">
+A inflação é uma variável econômica chave para formuladores de políticas econômicas em quase todos os países, uma ves que para a maior parte da 
+população o impacto das alterações nos níveis de preços e salários sobre o seu poder de compra é sensível e, em muitos casos, bastante relevante.
+Há ainda outros efeitos igualmente relevantes para a população, como flutuações nas taxas de desemprego, investimento e níveis de riquiza, dentre outros.
+</p>
+
+<p align="justify">
+No Brasil, onde conviveu-se duramente muitos anos com taxas altas de inflação e hiperinflação, a trajtória da economia, tanto no setor privado 
+fincanceiro e não-fincanceiro. Os motivos são diversos: desde a previsão da taxa básica e juros e mudanças nos preços dos ativos financeiros
+passando pela indexação dos preços e contratos de imóveis, alugueis e reajustes salariais.
+</p>
+
+
+<p align="justify">
+Entender o papel dos principais componentes que atuam na formação do nível preços e trajetória da evolução da taxa de inflação permitirá que 
+os analistas desenhem cenários ecnòmicos com maior clareza e reduzam a incerteza em suas tomadas de decisão.
+</p>
+
+<p align="justify">
+
+Ao final do curso, o aluno ampliará o seu conhecimento sobre os principais índices de inflação, realizará previsões e será capaz de anlisar com maior
+rigor o devare sobre a dinâmica inflacionária que ocorre atualmente no Brasil. 
+</p>
+
+
+<p align="justify">
+Um importante diferencial do curso é o uso do pacote estatístico R, um dos softwares mais utilizados no mundo para análise de dados e que
+contempla diversas funções estatísticas e econométricas. Aos alunos, será oferecido treinamento intensivo na linguagem R, que permitirá o aluno
+por em prática todo o conhecimento adquirido nas aulas.
+</p>
+
+<button type="button" class="btn btn-default btn-block" data-toggle="collapse" data-target="#demo3">Programa</button>
+  <div id="demo3" class="collapse">
+<h3>Programa <i class="fa fa-pencil-square-o" aria-hidden="true"></i></h3>
+
+
+<h4>1. Traking e projeção da infçação em R: visão geral</h4>
+<ul>
+<li>a) Comentários gerais sobre a inflação</li>
+<li>b) Comentários gerais sobre o R</li>
+<li><i>warm up</i> R</li>
+<li>d) Análise Exploratória do IPCA usando o R</li>
+<li>e) <i>case Study</i>: Existe relação entre inflação e crescimento?</li>
+</ul>
+
+<h4>2. Por dentro dos Índices de Preço</h4>
+<ul>
+    <li>a) O que são índices de preços?
+      <ul>
+          <li>i. Principais instituições; </li>
+          <li>ii. Metodologia; </li>
+          <li>iii. Principais índices de preços;</li>
+          <li>iv. Pro que esxitem tantos índices.</li>
+      </ul>
+    </li>
+</ul>
+
+
+<h4>3. Análise da inflação</h4>
+
+<ul>
+    <li>a) Inflação
+      <ul>
+          <li>i. O que é inflação?; </li>
+          <li>ii. Quais os principais tipos de inflação?; </li>
+          <li>iii. Por que os preços sobem?.</li>
+      </ul>
+    </li>
+</ul>
+
+
+<ul>
+    <li>b) Analisando o IPCA por agregações especiais
+      <ul>
+          <li>i. Bens comercializáveis e não comercializáveis; </li>
+          <li>ii. Serviços (Livres X Administrativos); </li>
+          <li>iii. Bens de consumo duráveis, semiduráveis e não duráveis.</li>
+      </ul>
+    </li>
+</ul>
+
+
+<ul>
+    <li>c) Núcleos de Inflação
+      <ul>
+          <li>i. O que são núcleos de inflação?</li>
+             <li>ii. Principais tipos de núcleo de inflação: 
+               <ul>
+                 <li> Núcleo por exclusão;</li>
+                 <li> Núcleo de dupla ponderação;</li>
+                 <li> Núcleo de médias aparadas.</li>
+               </ul>
+            </li>
+          
+      </ul>
+    </li>
+</ul>
+
+
+
+<h4>5. Fundamentos de Econometria de Séries Temporais</h4>
+
+  <ul>
+    <li>a)Modelo Vetorial Autorregressivo VAR</li>
+    <li>b) VAR estrutural</li>
+    <li>c) Casualidade de Granger</li>
+    <li>d) Cointegração</li>
+    <li>e) Modelo Vetorial de Correção de Erros VECM</li>
+    <li>f) Aplicações no R</li>
+    <li>g) Modelos Autorregressivos não Lineares TAR</li>
+  </ul>
+
+<h4>6. Curva de Phillips</h4>
+
+  <ul>
+    <li>a) Motivação eTeoria Econômica
+      <ul>
+        <li>Política Monetária</li>
+        <li>Modelo de Previsão baseado na teoria ecnômica</li>
+      </ul>
+    </li>
+      <li>b) Inflação X Desemprego</li>
+      <li>c) Curva de Phillips tradicional</li>
+      <li>d) Cruva de Phillips Híbrida</li>
+      <li>e) Modelo de Hiatos</li>
+  </ul>
+  
+  <h4>7. <i>Pass-through</i> cambial</h4>
+  <ul>
+  <li>a) Literatura teórica</li>
+  <li>b) Mecanismos de transmissão para a inflação</li>
+  <li>c) Determinadores do grau de repasse</li>
+  <li>d) Pass-through sob regime de metas de inflação</li>
+  <li>e) Literatura empírica</li>
+  <li>f) Controvérsias recentes</li>
+  </ul>
+  
+  <h4>8. Modelos de Previsão de Curto e Longo Prazo Parte I </h4>
+  <ul>
+    <li>a) Projeção de Curto Prazo</li>
+    <li>b) Preços Livres - Comercializáveis</li>
+    <li>c) Preços Livres - Não Comercializáveis</li>
+    <li>d) Preços Monitoradores</li>
+  </ul>
+  
+  <h4>9. Modelos de Previsão de Curto e Longo Prazo Parte II </h4>
+  <ul>
+    <li>a) Projeção de Longo Prazo</li>
+    <li>b) O sistema de Metas de Inflação (países que utilizam / vantagens e desvantagens)</li>
+  </ul>
+  
+  
+  
+  <h4>10. Inflação: Estratégias utilizando compra e venda de títulos públicos</h4>
+  <ul>
+    <li>a) Títulos Indexados X Não-Indexados</li>
+    <li>b) Onde obter expecativa de inflação Sistema Focus BCB e Mercado de Títulos</li>
+    <li>c) Depurando os dados disponíveis</li>
+    <li>d) Características e fluxos das NTN-Bs</li>
+    <li>e) Duration, Modified Duration e Convexidade</li>
+    <li>f) Calculando a finlação implícita</li>
+    <li>g) Hedge</li>
+    <li>f) Swaps de inflação</li>
+  </ul>
+  
+  
+  <a href="#" target="blank">
+  <div class="bs-callout bs-callout-success">
+ Clique aqui  para ver a ementa do curso em PDF. <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+  </div>
+ </a>
+  
+</div>
+
+<br>
+
 
 ## Análise de Séries Temporais para o Setor Elétrico 
   
