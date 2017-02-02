@@ -10,7 +10,7 @@ title: Incompany
 
 
 
-<div class="bs-callout bs-callout-success">
+<div class="bs-callout bs-callout-default">
 <h4><i class="fa fa-suitcase" aria-hidden="true"></i> Model Thinking Br</h4> 
 <p aling ="justify">A Model Thinking Br oferece soluções econômicas e financeiras utilizando suporte estatístico, computacional e métodos de SériesTemporais, buscando atender as demandas de nossos clientes de maneira ótima e fazendo com que as ferramentas desenvolvidas façam parte do dia a dia da empresa.</p>
 <p align ="justify">Faz parte do nosso portfólio estudos de viabilidade, cenários macroeconômicos, previsões de curto e longo prazos, validação de modelos/algoritmos computacionais, análise de risco, desenvolvimento de indicadores etc.</p>
@@ -20,7 +20,7 @@ title: Incompany
 </div>
 
 
-<div class="bs-callout bs-callout-danger">
+<div class="bs-callout bs-callout-default">
 <h4><i class="fa fa-suitcase" aria-hidden="true"></i> Coca-Cola S.A </h4>
 <br>
 <p>Estudos e previsão das séries temporais de vendas de refrigerantes, sucos e água das engarrafadoras da Coca-Cola Brasil. Os modelos estimados levaram em conta variáveis físicas e econômicas que influenciam a venda dos produtos Coca-Cola. Atendendo as demandas do cliente foram feitas previsões de curto (1 ano), médio (3 anos) e longo (10 anos) prazos. Foram estimados modelos autorregressivos com defasagem distribuída levando em conta o problema da cointegração. Todos os resultados foram obtidos utilizando o software R.</p>
@@ -75,7 +75,7 @@ contencioso jurídico da empresa e prevemos o número de processos um ano à fre
  <p align="justify">Plano Estadual de Logística e Transporte em Minas Gerais (PELT - MG) - Fundação Instituto de Pesquisas Econômicas, FIPE, Brasil.</p> 
 </div>  
   
-<div class="bs-callout bs-callout-info">
+<div class="bs-callout bs-callout-default">
   
 <strong><h4>Cursos in company</h4></strong>
 <br>
