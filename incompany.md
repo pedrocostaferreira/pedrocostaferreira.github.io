@@ -20,8 +20,6 @@ title: Incompany
 </div>
 
 
-
-<br>
 <div class="bs-callout bs-callout-danger">
 <h4><i class="fa fa-suitcase" aria-hidden="true"></i> Coca-Cola S.A </h4>
 <br>
