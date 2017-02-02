@@ -34,7 +34,7 @@ title: About me
         </p>
 </div> 
  
-        <script type="text/javascript" src="https://form.jotformz.com/jsform/70325309124649"></script>
+        <script type="text/javascript" src="https://form.jotformz.com/jsform/70325908876668"></script>
  
  
 
