@@ -19,7 +19,7 @@ title: Incompany
                 <div class="media">
                   <div class="media-left">
                     <a href="#">
-                      <img src="images/logo.png"  class="media-object" alt="" width="130px">
+                    
                     </a>
                   </div><!-- /.media-left-->
                   <div class="media-body">
