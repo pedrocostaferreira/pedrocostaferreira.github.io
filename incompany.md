@@ -203,7 +203,7 @@ title: Incompany
                     <br>
                       <h5>Ministrei cursos in company em Modelos de Séries Temporais, Inferência Estatística, Modelos Econométricos de Séries 
                       Temporais, Estatística Básica, R software, Séries Temporais para o setor elétrico, entre outros, para as seguintes empresas:
-                      </h5> 
+                      </h5> </p>
                         <ul>
                           <li>Petrobras S.A.</li>
                           <li>CEPEL (Centro de Pesquisas de Energia Elétrica)</li>
