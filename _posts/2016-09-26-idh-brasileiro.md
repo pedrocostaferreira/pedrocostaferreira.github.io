@@ -26,7 +26,7 @@ tags:
 | <b>Valor absoluto</b> |   0.208|     0.163|      0.161|   0.157|      0.134|   0.196|    0.129|     0.128|    0.129|
 | <b>Percentual</b>     |  38.030|    29.260|     23.850|  27.210|     21.340|  30.820|   21.390|    23.230|   19.430|
 
-                                          Tabela 1: Evolução IDH
+                                     Tabela 1: Evolução IDH
 
 -   Estes números deveriam indicar um futuro excelente para o desenvolvimento humano do país, entretanto ao efetuarmos uma suavização dos valores pelo método de LOESS é clara a inflexão nas curvas a partir do ano 2000, quando o crescimento do IDH começa a desacelerar.
 
