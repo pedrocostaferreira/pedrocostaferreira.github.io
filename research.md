@@ -102,7 +102,23 @@ e robusta.
                   <div class="media-body"><p></p>
                   
                     <h4>Descrição</h4>
-                    <p align='justify'>A quantidade de empresas que utilizam “Big Data e Data Science” para buscar soluções é extenso. Por exemplo, os Data Scientists do Walmart, maior rede varejista do mundo, em um Halloween perceberam, através do monitoramento das vendas e análise dos dados, que um novo cookie (é um biscoito e não um pequeno pacote de dados enviados de um website para o navegador do usuário quando o usuário visita um site) estava com as vendas abaixo do esperado em algumas lojas. Tal fato, fez com que o laboratório de dados acionasse o departamento de vendas, que descobriram que nessas lojas os cookies não haviam sido colocados na prateleira. </p>
+                    <p align='justify'>
+                    
+                    O estudo dessa nova ciência tem sido um esforço contínuo. Além de acompanhar a evolução da ciência de dados e tentar 
+                    estruturar em artigos e slides (uma das apresentações pode ser vista ao lado) a evolução desta nova linha de pesquisa temos
+                    ido a importantes congressos como <a href="http://user2017.brussels/" target="blanck">UseR</a> e <a href="http://www.kdd.org/kdd2017/" target="blanck">KDD</a>, 
+                    buscado parcerias técnicas e parcerias para a obtenção de grandes bases de dados e executando alguns estudos nessa área, 
+                    tais como: IPC-W, IIBR, TFCI e NOWCASTING. 
+                    </p>
+                    <p align="justiy">
+                    Tudo isso nos tornou apto e nos fez ver a necessidade de capacitarmos pessoas, 
+                    por isso, no fim de 2016 abrimos o curso de Big Data e Data Science na <a href="http://mgm-rio.fgv.br/cursos/big-data" target="blanck">FGV|IDE</a> e 
+                    ,também temos treinado pessoas na própria empresa.
+
+
+                    
+                    
+                    </p>
   
                       <hr>
                      
