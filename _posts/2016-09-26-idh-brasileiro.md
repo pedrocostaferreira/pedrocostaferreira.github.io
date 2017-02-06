@@ -21,12 +21,13 @@ tags:
 -   Neste primeiro gráfico é possível observar a evolução comparativa do IDH brasileiro contra seus pares sul-americanos. O país salta de um IDH de 0.547 em 1980 para um índice de 0.755 no final de 2014. Por esta fotografia, o país sai da nona e última posição para o quinto lugar. Percentualmente a evolução do Brasil foi de 38%, que também é o maior valor do período. O único outro país cuja evolução no período foi maior que 30% foi o Chile, cujo IDH avançou pouco mais do que este valor (Tabela 1).
 
 
+
 |                       |  Brazil|  Colombia|  Argentina|    Peru|  Venezuela|   Chile|  Ecuador|  Paraguay|  Uruguay|
 |:----------------------|-------:|---------:|----------:|-------:|----------:|-------:|--------:|---------:|--------:|
 | <b>Valor absoluto</b> |   0.208|     0.163|      0.161|   0.157|      0.134|   0.196|    0.129|     0.128|    0.129|
 | <b>Percentual</b>     |  38.030|    29.260|     23.850|  27.210|     21.340|  30.820|   21.390|    23.230|   19.430|
 
-                                     Tabela 1: Evolução IDH
+Tabela 1: Evolução IDH
 
 -   Estes números deveriam indicar um futuro excelente para o desenvolvimento humano do país, entretanto ao efetuarmos uma suavização dos valores pelo método de LOESS é clara a inflexão nas curvas a partir do ano 2000, quando o crescimento do IDH começa a desacelerar.
 
@@ -47,7 +48,7 @@ tags:
 
 
 
-|      |  Belize|  Brazil|  Dominica|  Jamaica|  Jordan|  Libya|  Saint Lucia|
+|      | Belize | Brazil | Dominica | Jamaica | Jordan | Libya | Saint Lucia |
 |:-----|-------:|-------:|---------:|--------:|-------:|------:|------------:|
 | 2000 |      66|      66|        64|       62|      60|     50|           66|
 | 2005 |      78|      77|        76|       67|      62|     53|           88|
@@ -100,3 +101,5 @@ Tabela 4: Posição relativa
 Tabela 5: Brasil x Top-10
 
 -   Por último, deixo uma tabela interativa com o ranking em 2014 de cada país e seus respectivos índices de desenvolvimento entre 1980 e 2014.
+
+   
