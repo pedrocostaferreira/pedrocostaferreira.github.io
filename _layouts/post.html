@@ -9,6 +9,9 @@ notes: archive
   {% endfor %}
 </ul>
 
+<div class="panel panel-default">
+	<div class="panel-body">
+
 <div class="notes">
 		<div class="note single">
 			<h2 class="title">{{ page.title }}</h2s>
@@ -30,9 +33,11 @@ notes: archive
 
 			<hr>
 
-			<!-- Post comments -->
-			<div class="notecomments">
-				{% include disqus.html %}	 
-			</div>
-		</div><!-- / .note .single -->
-</div><!-- /.notes -->
+				<!-- Post comments -->
+					<div class="notecomments">
+					{% include disqus.html %}	 
+				</div>
+			</div><!-- / .note .single -->
+		</div><!-- /.notes -->
+	</div><!-- /.panel-body -->
+</div><!-- /.panel panel-default -->

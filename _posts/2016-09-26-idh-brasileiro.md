@@ -16,23 +16,26 @@ tags:
 ### Evolução do IDH - América do Sul
 
 
-<img src = "/images/idh_sa.jpg" width = "200px">
 
+![IDH América do Sul](/images/idh_sa.jpg){:class="img-responsive"}
 -   Neste primeiro gráfico é possível observar a evolução comparativa do IDH brasileiro contra seus pares sul-americanos. O país salta de um IDH de 0.547 em 1980 para um índice de 0.755 no final de 2014. Por esta fotografia, o país sai da nona e última posição para o quinto lugar. Percentualmente a evolução do Brasil foi de 38%, que também é o maior valor do período. O único outro país cuja evolução no período foi maior que 30% foi o Chile, cujo IDH avançou pouco mais do que este valor (Tabela 1).
+
 
 |                       |  Brazil|  Colombia|  Argentina|    Peru|  Venezuela|   Chile|  Ecuador|  Paraguay|  Uruguay|
 |:----------------------|-------:|---------:|----------:|-------:|----------:|-------:|--------:|---------:|--------:|
 | <b>Valor absoluto</b> |   0.208|     0.163|      0.161|   0.157|      0.134|   0.196|    0.129|     0.128|    0.129|
 | <b>Percentual</b>     |  38.030|    29.260|     23.850|  27.210|     21.340|  30.820|   21.390|    23.230|   19.430|
 
-Tabela 1: Evolução IDH
+                                          Tabela 1: Evolução IDH
 
 -   Estes números deveriam indicar um futuro excelente para o desenvolvimento humano do país, entretanto ao efetuarmos uma suavização dos valores pelo método de LOESS é clara a inflexão nas curvas a partir do ano 2000, quando o crescimento do IDH começa a desacelerar.
 
 
-<img src = "/images/idh_suav.jpg" class="responsive-img">
+
+![IDH suavizado](/images/idh_suav.jpg){:class="img-responsive"}
 
 -   Entretanto, apesar da enorme evolução do IDH do Brasil no período é comum ver notícias falando em "queda no ranking". Em geral, estas notícias fazem referência à classificação dos países no mundo quando é utilizado por referência o índice de desenvolvimento humano. Estas notícias podem ser encontradas em rápida consulta ao Google. Levanta-se então a questão: estaria o país avançando em relação à américa do sul, porém perdendo terreno para o resto do mundo? Analisamos esta possibilidade a seguir.
+
 
 ### Ranking
 
@@ -41,6 +44,8 @@ Tabela 1: Evolução IDH
 -   A queda brasileira acontece, portanto, pela entrada de novos países no índice. Um total de 84 países foram inseridos no ranking durante a janela temporal que vai de 1980 até 2014. Só nos últimos 15 anos (a partir de 2000) entraram 22 países.
 
 -   Como avaliamos que há uma redução na velocidade de crescimento a partir de 2000 (Gráfico 2), reavaliamos a performance do Brasil para o período. Os resultados não são tão animadores. O Brasil passou seis países (Tabela 2) e foi passado por sete (Tabela 3).
+
+
 
 |      |  Belize|  Brazil|  Dominica|  Jamaica|  Jordan|  Libya|  Saint Lucia|
 |:-----|-------:|-------:|---------:|--------:|-------:|------:|------------:|
@@ -53,6 +58,8 @@ Tabela 1: Evolução IDH
 | 2014 |     101|      75|        94|       99|      80|     94|           89|
 
 Tabela 2: : Países passados pelo Brasil
+
+
 
 -   Os resultados são particularmente preocupantes se observarmos que alguns dos países que passaram o Brasil são a Turquia e a Venezuela. O primeiro por ser um país com uma economia e população relativamente grandes e, por conseguinte, ter desafios a serem superados de magnitude semelhante à nossa. O segundo por ser um vizinho nosso, sujeito assim a condições geopolíticas semelhantes às brasileiras.
 
@@ -71,6 +78,7 @@ Tabela 2: : Países passados pelo Brasil
 Tabela 3: Países que passaram o Brasil
 
 -   Fica claro pela Tabela 4 que o Brasil melhora relativamente ao resto do mundo. A tabela foi construída dividindo a posição do Brasil no ranking de um ano com o total de países rankeados. Ou seja, quanto menor o valor apresentado, mais próximo do topo do ranking o país se encontra. Porém, este método possui a falha de se, por exemplo, entrarem muitos países com desenvolvimento alto ou baixo.
+
 
 |                  |    1980|    2000|    2014|
 |:-----------------|-------:|-------:|-------:|
