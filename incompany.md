@@ -6,18 +6,9 @@ title: Incompany
 <!-- light -->
 
 
-<p>Nessa seção são apresentados alguns projetos que fiz em empresas públicas e privadas, colocando em prática as técnicas aprendidas na academia.  </p>
+<p>Nessa seção são apresentados alguns projetos que fiz em empresas públicas e privadas, colocando em prática as técnicas aprendidas na prática e na academia.</p>
 
 
-
-<div class="bs-callout bs-callout-default">
-<h4><i class="fa fa-suitcase" aria-hidden="true"></i> Model Thinking Br</h4> 
-<p aling ="justify">A Model Thinking Br oferece soluções econômicas e financeiras utilizando suporte estatístico, computacional e métodos de SériesTemporais, buscando atender as demandas de nossos clientes de maneira ótima e fazendo com que as ferramentas desenvolvidas façam parte do dia a dia da empresa.</p>
-<p align ="justify">Faz parte do nosso portfólio estudos de viabilidade, cenários macroeconômicos, previsões de curto e longo prazos, validação de modelos/algoritmos computacionais, análise de risco, desenvolvimento de indicadores etc.</p>
-<p align ="justify">Atendemos empresas de médio e grande porte, fornecendo além das informações demandadas, plataformas capazes de produzir tais estudos</p>
-<p align ="justify">Somos pragmáticos e abertos a novas soluções. Começamos por definir as questões certas, para então analisá-las com rigor analítico, como base para criar soluções.</p>
-<p align ="justify">Nossa equipe, formada por mestres e doutores, possui forte vínculo com a academia, buscando sempre trazer conhecimentos de fronteira para nossos clientes.</p>
-</div>
 
 
 <div class="bs-callout bs-callout-default">

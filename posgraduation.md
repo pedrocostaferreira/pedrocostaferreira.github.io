@@ -187,6 +187,8 @@ por em prática todo o conhecimento adquirido nas aulas.
 <br>
 
 
+
+
 ## Análise de Séries Temporais para o Setor Elétrico 
   
   <p align='justify'>  Análise de séries temporais compreende métodos de análise de dados com o objetivo
@@ -199,7 +201,7 @@ preços da energia nos horizontes de curto, médio e longo prazo; <strong>(iii)<
 de energia através da compra/venda de contratos de geração de energia elétrica; <strong>(iv)</strong> análise do
 comportamento do consumidor nos segmentos residencial, comercial e industrial; dentre
 outras.
-  </p>
+  </p> 
   
   <p align='justify'>
   Devido à natureza dos dados de cargas e afluências, não há um único método de
@@ -316,4 +318,35 @@ transferência)</li>
 
 </div>
 
-<br>
+## Big Data e Data Science
+
+
+<p align="justify">
+Nós estamos testemunhando um movimento que irá transformar completamente qualquer negócio e a sociedade. O nome que nós damos a esse movimento é Big Data e irá mudar tudo, a maneira que banco e varejistas operam, a forma que tratamos o câncer e protegemos o mundo contra o terrorismo. Não importa qual o trabalho que você está fazendo ou a indústria que você trabalha, Big Data irá transformá-lo” (Bernard Marr, 2016). 
+Big Data, basicamente, refere-se ao fato de que agora nós podemos coletar e analisar dados de formas que eram inimagináveis há alguns anos atrás. E há duas coisas que impulsionam esse movimento: o fato que temos mais dados de tudo e a nossa habilidade de guardar e analisar qualquer dado. Para exemplificar, estima-se que nós criamos mais dados nos últimos dois anos que em toda a nossa história. O avanço da computação distribuída significou que um grande volume de dados pudesse ser armazenado (em pequenos pedaços através de várias bases de dados) e analisados compartilhando as análises em diferentes servidores (cada um executando uma pequena parte da análise).
+</p>
+
+<p align = "justify">
+A quantidade de empresas que utilizam “Big Data e Data Science” para buscar soluções é extenso. Por exemplo, os Data Scientists do Walmart, maior rede varejista do mundo, em um Halloween perceberam, através do monitoramento das vendas e análise dos dados, que um novo cookie (é um biscoito e não um pequeno pacote de dados enviados de um website para o navegador do usuário quando o usuário visita um site) estava com as vendas abaixo do esperado em algumas lojas. Tal fato, fez com que o laboratório de dados acionasse o departamento de vendas, que descobriram que nessas lojas os cookies não haviam sido colocados na prateleira.
+</p>
+
+<button type="button" class="btn btn-default btn-block" data-toggle="collapse" data-target="#demo4">Mais</button>
+  <div id="demo4" class="collapse">
+<p align="justify">
+Esse curso, além de abordar o estado da arte sobre Big Data (e.g. Ecossistema Hadoop, Hive, Pig, NoSQL), utilizará para a análise de dados o software preferido da maior comunidade de cientistas de dados do mundo (Kaggle - http://goo.gl/j7b19s), o software R. Com mais de 2 milhões de usuários mundo afora, o R está se tornando rapidamente a linguagem de programação líder em Data Science e Estatística. Todo ano o número de usuários cresce a taxa de 40% e um grande número de empresas estão usando o R em suas atividades do dia a dia.
+Ao terminar o curso você estará apto a trabalhar com grandes bases de dados, conhecerá o Python (outro software muito utilizado por cientistas de dados) e terá profundo conhecimento sobre o R. Você entenderá Estatística e Machine Learning. Saberá visualizar dados e criar Relatórios Dinâmicos. Compreenderá a magia por trás da Inteligência Artificial. Saberá como prever sua receita e qual é o impacto que as mídias sociais poderão causar sobre ela. Analisará espacialmente os dados e entenderá como a Big Data está influenciando os modelos financeiros.
+</p>
+
+
+<p align="justify">
+Então, ao invés de colocar sua cabeça na areia ou ficar perdido nesse novo mundo chamado “Big Data e Data Science” você deveria se inscrever nesse curso e encontrar maneiras inteligentes de criar valor com as informações que estão por aí.
+</p>
+
+<a href="https://github.com/pedrocostaferreira/BigDataDataScience/raw/master/ementa_Big%20Data%20e%20Data%20Science_In_company.pdf" target="blank">
+  <div class="bs-callout bs-callout-success">
+ Clique aqui  para ver a ementa do curso em PDF. <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+  </div>
+ </a>
+
+
+<div>
