@@ -13,7 +13,8 @@ tags:
 
 
 
-Recentemente foi publicado no IEEE Spectrum, uma revista da área de engenharia, um ranking com as 10 linguagens de programação mais populares.
+Recentemente foi publicado no IEEE Spectrum, uma revista da área de engenharia, um ranking com as 10 linguagens de 
+programação mais populares.
 Tal publicação chamou atenção  pelo fato da ascensão da linguagem R neste ranking. O site apresentou também, como comparação, 
 o ranking do ano de 2014.
 
@@ -24,5 +25,6 @@ o ranking do ano de 2014.
 
  
 
-Como podemos ver na imagem acima, vemos uma grande ascensão do R, subindo da 9ª posição, em 2014, para a 6ª posição, em 2015. De acordo com a revista, essa 
+Como podemos ver na imagem acima, vemos uma grande ascensão do R, subindo da 9ª posição, 
+em 2014, para a 6ª posição, em 2015. De acordo com a revista, essa 
 subida do R no ranking mostra a crescente importância da “big data” em área de informática.
