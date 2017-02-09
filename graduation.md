@@ -53,7 +53,7 @@ como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entr
   <li><strong>h)</strong> Diagnóstico dos Resíduos</li>
   <li><strong>i)</strong> Previsão</li>
   </ul>
-  <a href="/pdfs/ementa1.dpf" target="blank">Clique aqui</a>  para ver a ementa do curso.
+  <a href="https://pedroferreira.shinyapps.io/SeriesTemporais/ementa1.pdf" target="blank">Clique aqui</a>  para ver a ementa do curso.
 
   </div>
 
