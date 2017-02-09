@@ -310,13 +310,7 @@ transferência)</li>
 <li>11.4. Data Mining</li>
 </ul>
 
-<a href="https://pedroferreira.shinyapps.io/SeriesTemporais/_w_809d9698/ementa1.pdf" target="blank">
-  <div class="bs-callout bs-callout-success">
- Clique aqui  para ver a ementa do curso em PDF. <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-  </div>
- </a>
 
-</div>
 
 ## Big Data e Data Science
 
