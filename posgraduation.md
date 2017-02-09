@@ -176,9 +176,9 @@ por em prática todo o conhecimento adquirido nas aulas.
   </ul>
   
   
-  <a href="#" target="blank">
+  <a href="https://github.com/pedrocostaferreira/pedrocostaferreira.github.io/raw/master/pdfs/ementa_inflacao.pdf" target="blank">
   <div class="bs-callout bs-callout-success">
- Clique aqui  para ver a ementa do curso em PDF. <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+ Clique aqui  para fazer download da ementa do curso em PDF. <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
   </div>
  </a>
   
