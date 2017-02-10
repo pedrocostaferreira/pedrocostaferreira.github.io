@@ -197,7 +197,7 @@ e robusta.
                 <div class="media">
                  
                   <div class="media-left">
-                    <img src="images/dinheiro_0.jpg" width="600px" class="media-object" > 
+                    <img src="images/saz.jpg" width="600px" class="media-object" > 
                      
                   </div>
                
@@ -207,7 +207,15 @@ e robusta.
                    <p align="justify"> A sazonalidade é causada por movimentos oscilatórios de mesma periodicidade que ocorrem em período intra-anual, como variações climáticas, férias, feriados, entre outros. A ocorrência desses eventos pode levar a conclusões inadequadas a respeito da série temporal em estudo. Para a análise econômica, o importante é detectar a diferença entre o que periodicamente ocorre e o que de fato ocorre de diferente naquele período específico, possibilitando observar a tendência e o ciclo da variável em análise. Dessa forma, precisa-se de uma ferramenta adequada que consiga remover essa componente (a sazonalidade). Nossos estudos focam-se nos possíveis métodos de ajuste sazonal, com ênfase para o X13-ARIMA-SEATS, e os aplicam em séries temporais econômicas, de Business Survey e carga de energia elétrica.</p>
                     
                        <hr>
+                       <div class="btn-group" role="group" aria-label="...">
+                       <a href="http://portalibre.fgv.br/main.jsp?lumPageId=402880811D8E34B9011D9CCBFDD1784C&contentId=8A7C82C54DB5CA9F014E0786E6343E9D"><button type="button" class="btn btn-default">FGV|IBRE - X-13ARIMA-SEATS com R </button></a>
+                      <a href="http://portalibre.fgv.br/main.jsp?lumPageId=402880811D8E34B9011D9CCBFDD1784C&contentId=8A7C82C5519A547801533DF9BFFE3EEE"><button type="button" class="btn btn-default">FGV|IBRE - 
+Usando o R para ensinar Ajuste Sazonal</button></a>
+                      
+                      </div><!--/btn-group -->
+                       
                      <div class="btn-group" role="group" aria-label="...">
+                      http://portalibre.fgv.br/main.jsp?lumPageId=402880811D8E34B9011D9CCBFDD1784C&contentId=8A7C82C54DB5CA9F014E0786E6343E9D
                       </div><!--/btn-group -->
                   </div> <!--/media-body -->
                 </div><!-- /media -->
