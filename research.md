@@ -178,22 +178,47 @@ e robusta.
                   <div class="media-body"><p></p>
                     <h4>Descrição</h4>
                     <p align='justify'>Dando continuidade a parceria firmada em setembro de 2014, a Escola de Matemática Aplicada (FGV/EMAp) e o Instituto Brasileiro de Economia (FGV/IBRE) propõem a continuação do projeto “Proposta de criação de um Índice Espacial de Preços ao Consumidor (IEPC-RJ) por regiões da cidade do Rio de Janeiro”. </p> 
-                    <p align='justify'>Durante este projeto todas as metas estabelecidas foram cumpridas, a saber: a) Tratamento dos dados das séries de preços do IBRE; b) construção de banco de dados com extensões espaciais e provisão para o cotejamento com séries de preços online; c)  georreferenciamento dos informantes; d) análise de distribuição espacial de informantes; e) análise das séries temporais de preços nas 5 Aps (áreas de planejamento) do Rio de Janeiro e f) prototipação das tecnologias, desenho e automação de processo de filtragem, processamento e visualização de dados em site animado.
-
-</p>
-
-
-                    
-                      <hr>
+                    <p align='justify'>Durante este projeto todas as metas estabelecidas foram cumpridas, a saber: a) Tratamento dos dados das séries de preços do IBRE; b) construção de banco de dados com extensões espaciais e provisão para o cotejamento com séries de preços online; c)  georreferenciamento dos informantes; d) análise de distribuição espacial de informantes; e) análise das séries temporais de preços nas 5 Aps (áreas de planejamento) do Rio de Janeiro e f) prototipação das tecnologias, desenho e automação de processo de filtragem, processamento e visualização de dados em site animado.</p>
+                       <hr>
                      <div class="btn-group" role="group" aria-label="...">
-                       
-                      
                       </div><!--/btn-group -->
                   </div> <!--/media-body -->
                 </div><!-- /media -->
                 </div><!--/panel-body -->
          </nav><!-- /panel panel-info -->
       </div>  <!-- /col-xm-12 col-xs-12 -->  
+      
+      
+      
+      <div class="col-xm-12 col-xs-12">
+          <nav class="panel panel-info">
+            <div class="panel-heading">Estudos sobre a Sazonalidade </div>  
+              <div class="panel-body">
+                <div class="media">
+                 
+                  <div class="media-left">
+                    <img src="images/dinheiro_0.jpg" width="600px" class="media-object" > 
+                     
+                  </div>
+               
+                  <div class="media-body"><p></p>
+                    <h4>Descrição</h4>
+                    
+                   <p align="justify"> A sazonalidade é causada por movimentos oscilatórios de mesma periodicidade que ocorrem em período intra-anual, como variações climáticas, férias, feriados, entre outros. A ocorrência desses eventos pode levar a conclusões inadequadas a respeito da série temporal em estudo. Para a análise econômica, o importante é detectar a diferença entre o que periodicamente ocorre e o que de fato ocorre de diferente naquele período específico, possibilitando observar a tendência e o ciclo da variável em análise. Dessa forma, precisa-se de uma ferramenta adequada que consiga remover essa componente (a sazonalidade). Nossos estudos focam-se nos possíveis métodos de ajuste sazonal, com ênfase para o X13-ARIMA-SEATS, e os aplicam em séries temporais econômicas, de Business Survey e carga de energia elétrica.</p>
+                    
+                       <hr>
+                     <div class="btn-group" role="group" aria-label="...">
+                      </div><!--/btn-group -->
+                  </div> <!--/media-body -->
+                </div><!-- /media -->
+                </div><!--/panel-body -->
+         </nav><!-- /panel panel-info -->
+      </div>  <!-- /col-xm-12 col-xs-12 -->  
+      
+      
+      
+      
+      
       
       
       
