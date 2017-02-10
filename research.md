@@ -209,8 +209,9 @@ e robusta.
                        <hr>
                        <div class="btn-group" role="group" aria-label="...">
                        <a href="http://portalibre.fgv.br/main.jsp?lumPageId=402880811D8E34B9011D9CCBFDD1784C&contentId=8A7C82C54DB5CA9F014E0786E6343E9D"><button type="button" class="btn btn-default">FGV|IBRE - X-13ARIMA-SEATS com R </button></a>
-                      <a href="http://portalibre.fgv.br/main.jsp?lumPageId=402880811D8E34B9011D9CCBFDD1784C&contentId=8A7C82C5519A547801533DF9BFFE3EEE"><button type="button" class="btn btn-default">FGV|IBRE - 
-Usando o R para ensinar Ajuste Sazonal</button></a>
+                      </div>
+                      <div class="btn-group" role="group" aria-label="...">
+                      <a href="http://portalibre.fgv.br/main.jsp?lumPageId=402880811D8E34B9011D9CCBFDD1784C&contentId=8A7C82C5519A547801533DF9BFFE3EEE"><button type="button" class="btn btn-default">FGV|IBRE - Usando o R para ensinar Ajuste Sazonal</button></a>
                       
                       </div><!--/btn-group -->
                        
