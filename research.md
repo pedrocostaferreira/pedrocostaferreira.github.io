@@ -208,7 +208,7 @@ e robusta.
                     
                        <hr>
                        <div class="btn-group" role="group" aria-label="...">
-                       <a href="http://portalibre.fgv.br/main.jsp?lumPageId=402880811D8E34B9011D9CCBFDD1784C&contentId=8A7C82C54DB5CA9F014E0786E6343E9D"><button type="button" class="btn btn-default">FGV|IBRE - X-13ARIMA-SEATS com R: Um Estudo de Caso para a Produção Industrial Brasileira </button></a>
+                       <a href="http://portalibre.fgv.br/main.jsp?lumPageId=402880811D8E34B9011D9CCBFDD1784C&contentId=8A7C82C54DB5CA9F014E0786E6343E9D"><button type="button" class="btn btn-default">FGV|IBRE - X-13ARIMA-SEATS com R: Um Estudo de Caso...</button></a>
                       </div>
                       <br>
                       <div class="btn-group" role="group" aria-label="...">
