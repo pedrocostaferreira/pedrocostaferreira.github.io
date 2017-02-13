@@ -61,7 +61,8 @@ e robusta.
                  
                   <div class="media-left">
                      <!--apresentacao pacote bets--> 
-                     <iframe src="//slides.com/annacarolinabarros/deck-1/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                     <embed src="/files/Eco_Aplic_Pedro.html"  width="576" height="420" scrolling="no" frameborder="0">
+                     <!--<iframe src="//slides.com/pedroferreira/deck-1-3" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
                   </div>
                
                   <div class="media-body"><p></p>
