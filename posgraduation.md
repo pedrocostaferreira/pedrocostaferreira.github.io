@@ -310,7 +310,7 @@ transferência)</li>
 <li>11.4. Data Mining</li>
 </ul>
 
-
+</div>
 
 ## Big Data e Data Science
 
