@@ -4,7 +4,7 @@ title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. teste teste.
 resumo: Lorem ipsum dolor sit amet, consectetur adipiscing elit.at risus id velit placerat commodo.
 date: 2016-06-11 
 author: Jonatha Azevedo
-image: /images/default.jpg
+image: /images/Tulips.jpg
 tags:
  - NMEC
  - Colaboradores
