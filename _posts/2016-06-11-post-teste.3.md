@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at risus id velit placerat.
+title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. teste teste.
 resumo: Lorem ipsum dolor sit amet, consectetur adipiscing elit.at risus id velit placerat commodo.
 date: 2016-06-11 
 author: Jonatha Azevedo
