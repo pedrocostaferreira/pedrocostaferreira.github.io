@@ -53,7 +53,8 @@ como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entr
   <div class="bs-callout bs-callout-success">
  Clique aqui  para ver a ementa do curso em PDF. <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
   </div>
-  </div>
+ </a> 
+</div>
 
 <hr>
 
