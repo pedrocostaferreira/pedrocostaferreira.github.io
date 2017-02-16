@@ -5,15 +5,9 @@ title: Graduation
 
 
 ## Econometria de séries temporais 
+
+<h3>Objetivo do curso <i class="fa fa-check-circle" aria-hidden="true"></i></h3>
   
- <p align='justify'>Nesse curso iremos estudar os principais modelos univariados de Séries Temporais(Modelos Box & Jenkins, modelos GARCH etc), modelos 
-  econométricos multivariados (Modelos VAR, VECM) e aplicar os conceitos desenvolvidos no software R.</p>
-  
-  <p align='justify'> Almeja-se, assim, transmitir os 
-  conhecimentos de modelagem estatística, análise de sensibilidade e previsão de séries temporais como, por exemplo, séries de vendas, receitas, 
-  despesas, preços, demanda, entre outras.</p>
-  
-  <h3>Objetivo do curso <i class="fa fa-check-circle" aria-hidden="true"></i></h3>
   
   <p align='justify'> Estudar os principais modelos univariados de Séries Temporais(Modelos Box & Jenkins,
 modelos GARCH etc), modelos econométricos multivariados (Modelos VAR, VECM) e
@@ -53,7 +47,7 @@ como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entr
   <li><strong>h)</strong> Diagnóstico dos Resíduos</li>
   <li><strong>i)</strong> Previsão</li>
   </ul>
-  <a href="https://pedroferreira.shinyapps.io/SeriesTemporais/ementa1.pdf" target="blank">Clique aqui</a>  para ver a ementa do curso.
+  <a href="https://pedroferreira.shinyapps.io/SeriesTemporais/ementa1.pdf" target="blank">Clique aqui</a>  para ver a ementa completa do curso.
 
   </div>
 
