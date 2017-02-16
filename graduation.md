@@ -47,8 +47,12 @@ como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entr
   <li><strong>h)</strong> Diagnóstico dos Resíduos</li>
   <li><strong>i)</strong> Previsão</li>
   </ul>
-  <a href="https://github.com/pedrocostaferreira/pedrocostaferreira.github.io/raw/master/pdfs/ementa_IBMEC_ECO%20II.pdf" target="blank">Clique aqui</a>  para ver a ementa completa do curso.
-
+  
+  
+  <a href="https://github.com/pedrocostaferreira/pedrocostaferreira.github.io/raw/master/pdfs/ementa_IBMEC_ECO%20II.pdf" target="blank">
+  <div class="bs-callout bs-callout-success">
+ Clique aqui  para ver a ementa do curso em PDF. <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+  </div>
   </div>
 
 <hr>
