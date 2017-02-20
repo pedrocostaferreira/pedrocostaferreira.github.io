@@ -55,6 +55,23 @@ como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entr
   </div>
  </a> 
  
+ <p align="justify">Abaixo segue as três listas de exercicíos disponíveis no meu repositório dedicado a ecometria de séries temporais. Você pode acessar todo o material aqui: <a href="https://github.com/pedrocostaferreira/SeriesTemporais" target="blank"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a></p>
+ 
+ <!-- lista de exercicios econometria -->
+ 
+ <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <a href="https://github.com/pedrocostaferreira/SeriesTemporais/raw/master/Listas_Exercicios/ECOII-lista0-PCF.pdf"><button type="button" class="btn btn-default">(Revisão) lista de econometria</button></a>
+  </div>
+  <div class="btn-group" role="group">
+   <a href="https://github.com/pedrocostaferreira/SeriesTemporais/raw/master/Listas_Exercicios/ECOII-lista1-PCF.pdf"> <button type="button" class="btn btn-default">2º lista de econometria</button></a>
+  </div>
+  <div class="btn-group" role="group">
+    <a href="https://github.com/pedrocostaferreira/SeriesTemporais/raw/master/Listas_Exercicios/ECOII-lista2-PCF.pdf"><button type="button" class="btn btn-default">3° lista de econometria</button></a>
+  </div>
+</div>
+ 
+ 
 </div>
 
 <hr>
