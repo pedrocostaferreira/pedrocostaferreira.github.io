@@ -55,7 +55,7 @@ como, por exemplo, séries de vendas, receitas, despesas, preços, demanda, entr
   </div>
  </a> 
  
- <p align="justify">Abaixo segue as três listas de exercicíos disponíveis no meu repositório dedicado a ecometria de séries temporais. Você pode acessar todo o material aqui: <a href="https://github.com/pedrocostaferreira/SeriesTemporais" target="blank"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a></p>
+ <p align="justify">Abaixo segue as três listas de exercícios disponíveis no meu repositório dedicado a ecometria de séries temporais. Você pode acessar todo o material aqui: <a href="https://github.com/pedrocostaferreira/SeriesTemporais" target="blank"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a></p>
  
  <!-- lista de exercicios econometria -->
  
