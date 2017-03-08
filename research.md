@@ -96,7 +96,13 @@ e robusta.
                 <div class="media">
                  
                   <div class="media-left">
-                    <img src="images/bigdatafgv.jpg" class="media-object"  > 
+                    <!--<img src="images/bigdatafgv.jpg" class="media-object"  > -->
+                     
+                     <script src="js/pdfobject.js"></script>
+                     <script>PDFObject.embed("pdfs/Big_Data_e_Data_Science_aula_introdutoria.pdf", "#example1");</script>
+                     
+                     <embed width="600" height="450" src="pdfs/Big_Data_e_Data_Science_aula_introdutoria.pdf" type="application/pdf">
+                     
                      
                   </div>
                

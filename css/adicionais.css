@@ -567,3 +567,9 @@ footer { background-color:#0c1a1e;min-width:100%; min-height:35; font-family: 'O
   line-height: 1.33;
   border-radius: 35px;
 }
+
+
+/* /pdf  -------------------------------------------------------- */
+
+.pdfobject-container { height: 500px;}
+.pdfobject { border: 1px solid #666; }
