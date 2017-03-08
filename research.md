@@ -120,14 +120,14 @@ e robusta.
                     <p align="justiy">
                     Tudo isso nos tornou apto e nos fez ver a necessidade de capacitarmos pessoas, 
                     por isso, no fim de 2016 abrimos o curso de Big Data e Data Science na <a href="http://mgm-rio.fgv.br/cursos/big-data" target="blanck">FGV|IDE</a> e 
-                    ,também temos treinado pessoas na própria empresa.
-
-
-                    
-                    
-                    </p>
+                    ,também temos treinado pessoas na própria empresa.</p>
   
                       <hr>
+                     
+                     <div class="btn-group" role="group" aria-label="...">
+                       <a href="https://github.com/pedrocostaferreira/BigDataDataScience"><button type="button" class="btn btn-default">GitHub - para mais informações <i class="fa fa-github" aria-hidden="true"></i></button></a>
+                      </div><!--/btn-group -->
+                     
                      
                   </div> <!--/media-body -->
                 </div><!-- /media -->
