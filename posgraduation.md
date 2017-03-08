@@ -336,7 +336,7 @@ Ao terminar o curso você estará apto a trabalhar com grandes bases de dados, c
 Então, ao invés de colocar sua cabeça na areia ou ficar perdido nesse novo mundo chamado “Big Data e Data Science” você deveria se inscrever nesse curso e encontrar maneiras inteligentes de criar valor com as informações que estão por aí.
 </p>
 
-<a href="https://github.com/pedrocostaferreira/BigDataDataScience/raw/master/ementa_Big%20Data%20e%20Data%20Science_In_company.pdf" target="blank">
+<a href="hhttps://github.com/pedrocostaferreira/BigDataDataScience/blob/master/Big%20Data%20e%20Data%20Science.pdf" target="blank">
   <div class="bs-callout bs-callout-success">
  Clique aqui  para ver a ementa do curso em PDF. <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
   </div>
