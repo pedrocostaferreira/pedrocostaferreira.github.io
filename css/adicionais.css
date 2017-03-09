@@ -573,3 +573,10 @@ footer { background-color:#0c1a1e;min-width:100%; min-height:35; font-family: 'O
 
 .pdfobject-container { height: 500px;}
 .pdfobject { border: 1px solid #666; }
+
+/* /center img jekyll  -------------------------------------------------------- */
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
