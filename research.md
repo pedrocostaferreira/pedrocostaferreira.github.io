@@ -98,10 +98,9 @@ e robusta.
                   <div class="media-left">
                     <!--<img src="images/bigdatafgv.jpg" class="media-object"  > -->
                      
-                     <script src="js/pdfobject.js"></script>
-                     <script>PDFObject.embed("pdfs/Big_Data_e_Data_Science_aula_introdutoria.pdf", "#example1");</script>
+                     <iframe src="//slides.com/pedroferreira/deck-b17ef72e-baf9-48e9-9669-1650c76c10fd/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                      
-                     <embed width="600" height="450" src="pdfs/Big_Data_e_Data_Science_aula_introdutoria.pdf" type="application/pdf">
+                     <!--<embed width="600" height="450" src="pdfs/Big_Data_e_Data_Science_aula_introdutoria.pdf" type="application/pdf">-->
                      
                      
                   </div>
