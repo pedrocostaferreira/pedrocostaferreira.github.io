@@ -4,7 +4,7 @@ title: Análise de Séries Temporais utilizando o pacote BETS - parte 1
 resumo: Mini curso ministrado no segundo Seminário de Estatística com R, mostrando uma das muitas aplicações do pacote na análise de séries temporais.
 date: 2017-06-12
 author: Pedro Ferreira
-image: /images/econ1.png" 
+image: /images/econ1.jpg" 
 tags: 
  - SER
  - BETS
