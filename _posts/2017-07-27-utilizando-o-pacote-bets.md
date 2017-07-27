@@ -2,7 +2,7 @@
 layout: post
 title: Utilizando o pacote BETS (Brazilian Economic Time Series)
 resumo: Discutiremos aqui algumas formas básicas de uso do pacote BETS 
-date: 2016-06-13
+date: 2017-07-27
 author: Talitha Speranza
 image: /images/econ1.jpg
 tags: 
