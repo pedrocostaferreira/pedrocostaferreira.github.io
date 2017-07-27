@@ -1,3 +1,17 @@
+---
+layout: post
+title: Utilizando o pacote BETS (Brazilian Economic Time Series)
+resumo: Discutiremos aqui algumas formas básicas de uso do pacote BETS 
+date: 2016-06-13
+author: Talitha Speranza
+image: /images/econ1.jpg
+tags: 
+ -  R
+ -  BETS
+ -  Séries Temporais
+---
+
+
 Discutiremos aqui algumas formas básicas de uso do pacote BETS,
 mostrando algumas de suas principais funções. O BETS disponibiliza
 milhares de séries econômicas brasileiras de diferentes centros, como
