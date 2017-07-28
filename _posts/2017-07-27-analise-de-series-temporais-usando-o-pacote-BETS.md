@@ -16,7 +16,7 @@ BETS usando a metodologia Box & Jenkins. No final, seremos capazes de
 usar o modelo para fazer previsões.
 
 Metodologia Box & Jenkins
-=========================
+-------------------------
 
 O método de Box & Jenkins permite que os valores futuros da série em
 estudo sejam previstos somente com base nos valores passados e presentes
