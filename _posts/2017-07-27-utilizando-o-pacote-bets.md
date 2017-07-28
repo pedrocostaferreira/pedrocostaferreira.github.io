@@ -248,3 +248,23 @@ lista completa dos gráficos disponíveis.
 
 ![Terceira página do *Business Cycle Dashboard*](/images/dashboard.png){:class="img-responsive" .center-image}
 
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//github.us16.list-manage.com/subscribe/post?u=7aa1372f0c11f16fbc645fcfc&amp;id=5c518dffee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Quer se manter informado sobre atualizações no BETS? Assine nossa Mailing List! </label><p>Nós também enviaremos dicas de como usar o BETS. Sem spams.
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Seu endereço de email" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7aa1372f0c11f16fbc645fcfc_5c518dffee" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Assinar" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
