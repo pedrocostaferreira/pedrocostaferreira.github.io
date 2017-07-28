@@ -217,9 +217,9 @@ Vejamos dois exemplos de uso da `BETS.chart`.
 
     > BETS.chart(ts = 'iie_br', file = "iie_br", open = TRUE)
 
-<center>
-![](/images/iie_br.png)
-</center>
+
+![Índice de Incerteza da Economia Brasileira](/images/iie_br.png)
+
     > BETS.chart(ts = "misery_index", file = "misery_index.png", open = TRUE)
 
 
@@ -245,6 +245,6 @@ lista completa dos gráficos disponíveis.
 
     > BETS.dashboard(type = "business_cycle", saveas = "survey.pdf")
 
-<center>
+
 ![Terceira página do *Business Cycle Dashboard*](/images/dashboard.png)
-</center>
+
