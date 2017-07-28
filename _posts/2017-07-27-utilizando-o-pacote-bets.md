@@ -218,12 +218,12 @@ Vejamos dois exemplos de uso da `BETS.chart`.
     > BETS.chart(ts = 'iie_br', file = "iie_br", open = TRUE)
 
 <center>
-![](iie_br.png){ width=60% }
+![](/images/iie_br.png){ width=60% }
 </center>
     > BETS.chart(ts = "misery_index", file = "misery_index.png", open = TRUE)
 
 <center>
-![](misery_index.png){ width=60% }
+![](/images/misery_index.png){ width=60% }
 </center>
 Para uma lista completa dos gráficos diponíveis, consulte o manual de
 referência da `BETS.chart`.
@@ -246,5 +246,5 @@ lista completa dos gráficos disponíveis.
     > BETS.dashboard(type = "business_cycle", saveas = "survey.pdf")
 
 <center>
-![Terceira página do *Business Cycle Dashboard*](dashboard.png)
+![Terceira página do *Business Cycle Dashboard*](/images/dashboard.png)
 </center>
