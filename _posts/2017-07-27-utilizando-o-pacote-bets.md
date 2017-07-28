@@ -12,11 +12,12 @@ tags:
 ---
 
 
-Discutiremos aqui algumas formas básicas de uso do pacote BETS,
-mostrando algumas de suas principais funções. O BETS disponibiliza
-milhares de séries econômicas brasileiras de diferentes centros, como
-Banco Central, IBGE e FGV. Mas, além disso, contém ferramentas de
-análise e visualização de séries temporais, como veremos.
+O BETS é um pacote R que disponibiliza milhares de séries econômicas brasileiras de diferentes centros, como
+Banco Central, IBGE e FGV, através de uma interface bastante simples e flexível. O pacote também conta com ferramentas poderosas de análise e visualização de séries temporais, como relatórios automatizados da aplicação de métodos conhecidos de análise de séries (SARIMA, redes neurais e Holt-Winters), ou a criação de dashboards e gráficos de aparência profissional.   
+
+Discutiremos aqui as formas básicas de uso do pacote (busca, obtenção e armazenamento de séries) e apenas tangenciaremos os usos mais avançados, que serão temas de outros posts.
+
+Caso o leitor se interesse, há ao final deste post um formulário para assinar a Mailing List do BETS. Através dela, informaremos o usuários acerca de atualizações do pacote e daremos dicas periódicas de como usá-lo.  
 
 Interface com a Base de Dados
 -----------------------------
@@ -27,7 +28,7 @@ Devido ao tamanho considerável da base de dados, foi necessário criar um
 modo de pesquisar por séries a partir de seus metadados, isto é, uma
 ferramenta de busca que utilizasse uma ou mais informações das séries
 como palavras-chave. A função `BETS.search` realiza as pesquisas por
-cada campo da tabela de metadados
+cada campo da tabela de metadados.
 
 O protótipo da `BETS.search` tem a forma:
 
@@ -247,6 +248,11 @@ lista completa dos gráficos disponíveis.
 
 
 ![Terceira página do *Business Cycle Dashboard*](/images/dashboard.png){:class="img-responsive" .center-image}
+
+Mailing List
+----------
+
+Abaixo você encontra um formulário para assinar a Mailing List do BETS. Através dela você saberá muito mais sobre o BETS e suas novas versões. Se você se interessou pelo pacote, não deixe de assinar!
 
 <br>
 <!-- Begin MailChimp Signup Form -->
