@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Análise de Séries Temporais Usando o Pacote BETS
-resumo: Vamos modelar a série de produção de bens intermediários (PBI) com o
-BETS usando a metodologia Box & Jenkins
+resumo: Vamos modelar a série de produção de bens intermediários (PBI) com o BETS usando a metodologia Box & Jenkins
 date: 2017-07-27
 author: Talitha Speranza
 image: /images/econ1.jpg
