@@ -115,7 +115,7 @@ Para mais informações sobre a `BETS.search`, incluindo os valores
 válidos em cada campo, consulte o manual de referência, digitando
 `?BETS.search` no console do R.
 
-BETS.get}
+BETS.get
 ---------
 
 A `BETS.get` funciona unicamente através do código de referência da
