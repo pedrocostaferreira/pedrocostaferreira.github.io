@@ -248,6 +248,7 @@ lista completa dos gráficos disponíveis.
 
 ![Terceira página do *Business Cycle Dashboard*](/images/dashboard.png){:class="img-responsive" .center-image}
 
+<br>
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -257,7 +258,7 @@ lista completa dos gráficos disponíveis.
 </style>
 <div id="mc_embed_signup">
 <form action="//github.us16.list-manage.com/subscribe/post?u=7aa1372f0c11f16fbc645fcfc&amp;id=5c518dffee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll" style="margin:auto auto">
+    <div id="mc_embed_signup_scroll" style="clear:both">
     <label>Quer se manter informado sobre atualizações no BETS? Assine nossa Mailing List!</label>
     <p style="margin-top:0px">Nós também enviaremos dicas de como usar o BETS. Sem spams.</p>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Seu endereço de email" required>
@@ -269,3 +270,4 @@ lista completa dos gráficos disponíveis.
 </div>
 
 <!--End mc_embed_signup-->
+<br><br>
