@@ -218,13 +218,13 @@ Vejamos dois exemplos de uso da `BETS.chart`.
     > BETS.chart(ts = 'iie_br', file = "iie_br", open = TRUE)
 
 <center>
-![](/images/iie_br.png){ width=60% }
+![](/images/iie_br.png)
 </center>
     > BETS.chart(ts = "misery_index", file = "misery_index.png", open = TRUE)
 
-<center>
-![](/images/misery_index.png){ width=60% }
-</center>
+
+![Índice de Miséria](/images/misery_index.png)
+
 Para uma lista completa dos gráficos diponíveis, consulte o manual de
 referência da `BETS.chart`.
 
