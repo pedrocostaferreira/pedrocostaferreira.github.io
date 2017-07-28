@@ -258,7 +258,8 @@ lista completa dos gráficos disponíveis.
 <div id="mc_embed_signup">
 <form action="//github.us16.list-manage.com/subscribe/post?u=7aa1372f0c11f16fbc645fcfc&amp;id=5c518dffee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Quer se manter informado sobre atualizações no BETS? Assine nossa Mailing List! </label><p style="margin-top:0px">Nós também enviaremos dicas de como usar o BETS. Sem spams.
+    <p><b>Quer se manter informado sobre atualizações no BETS? Assine nossa Mailing List!</b></p>
+    <p style="margin-top:0px">Nós também enviaremos dicas de como usar o BETS. Sem spams.
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Seu endereço de email" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7aa1372f0c11f16fbc645fcfc_5c518dffee" tabindex="-1" value=""></div>
