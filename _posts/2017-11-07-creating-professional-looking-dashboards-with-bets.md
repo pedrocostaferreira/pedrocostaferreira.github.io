@@ -246,7 +246,7 @@ Finally, we call `BETS.dashboard`:
 This call creates a `.pdf` file containing the dashboard. Its two pages
 are reproduced below.
 
-![Custom dashboard created with BETS](custom_dashboard.png){:class="img-responsive" .center-image}   
+![Custom dashboard created with BETS](/images/custom_dashboard.png){:class="img-responsive" .center-image}   
 
 And that's it! With relatively few lines of code, we were able to design
 a fully customizable, professional-looking economic dashboard using
