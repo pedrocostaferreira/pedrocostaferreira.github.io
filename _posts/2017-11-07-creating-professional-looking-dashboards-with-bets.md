@@ -19,7 +19,7 @@ latest available data of each series, since BETS extracts series
 directly from their original sources. The figure below shows a page of
 one of such dashboards:
 
-<img src="dashboard.png" style="display: block; margin: auto;" />
+![Third page of the Business Cycle Dashboard](/images/dashboard.png){:class="img-responsive" .center-image}
 
 In this example, we used a built-in theme - all charts inform something
 about the Brazilian business cycles. However, dashboards are fully
@@ -54,7 +54,7 @@ Here we used another built-in theme: `macro_situation` (for
 macroeconomic situation charts). The result of this straightforward call
 is, again, a `.pdf` file. One of its pages is displayed below.
 
-<img src="dashboard2.png" style="display: block; margin: auto;" />
+![Second page of the Macro Situation Dashboard](/images/dashboard2.png){:class="img-responsive" .center-image}
 
 You might be wondering how to insert your own series into BETS
 dashboards. Firstly, we have to look into the main constituents of BETS
@@ -77,7 +77,7 @@ Uncertainty Index of the Getúlio Vargas Foundation. The fuction saves
 the chart in file *uncertainty.png* and opens it to the user. Results
 are reproduced below.
 
-<img src="iie_br.png" width="70%" style="display: block; margin: auto;" />
+![Uncertainty Index chart](/images/iie_br.png){:class="img-responsive" .center-image}
 
 All available codes are listed in the help files. To access them, type
 `?BETS.chart` in the R console. You will see that chart's codes are
@@ -99,7 +99,7 @@ charts in *.pdf* files, for better resolution.
 
 The command just presented renders the follwing figure:
 
-<img src="ipca_with_core.png" width="70%" style="display: block; margin: auto;" />
+![IPCA chart](/images/ipca_with_core.png){:class="img-responsive" .center-image}
 
 It is also possible to provide external time series (i.e. not
 predefined). Let's make a Brazilian current account and direct foreign
@@ -129,8 +129,8 @@ to explain how to include them in custom dashboards.
     )
 
     BETS.chart(ts = curr_acnt, style = "normal", file = "ca_di.pdf", open = T, params = params)
-
-<img src="ca_di.png" width="70%" style="display: block; margin: auto;" />
+    
+![Current Account versus Foreing Direct Investiment chart](/images/ca_di.png){:class="img-responsive" .center-image}   
 
 Most chart parameters are self-explanatory, but others deserve
 clarification. `extra` receives the second series and will always be
@@ -246,7 +246,7 @@ Finally, we call `BETS.dashboard`:
 This call creates a `.pdf` file containing the dashboard. Its two pages
 are reproduced below.
 
-<img src="custom_dashboard.png" width="90%" style="display: block; margin: auto;" />
+![Custom dashboard created with BETS](custom_dashboard.png){:class="img-responsive" .center-image}   
 
 And that's it! With relatively few lines of code, we were able to design
 a fully customizable, professional-looking economic dashboard using
