@@ -1,3 +1,15 @@
+---
+layout: post
+title: Creating Professional-Looking Dashboards with BETS
+resumo: We are going to show how to use BETS to create dashboards to visualize economic data. 
+date: 2017-11-07
+author: Talitha Speranza
+image: /images/dashboard.png
+tags: 
+ -  R-English
+ -  BETS
+---
+
 The BETS package, besides providing thousands of Brazilian economic time
 series and interesting analytical tools, has a powerful device to
 visualize economic data. With a few lines of code - in some cases, only
