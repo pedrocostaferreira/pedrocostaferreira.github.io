@@ -8,6 +8,7 @@ image: /images/dashboard.png
 tags: 
  -  R-English
  -  BETS
+ -  R
 ---
 
 The BETS package, besides providing thousands of Brazilian economic time
