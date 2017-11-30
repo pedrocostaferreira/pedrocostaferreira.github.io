@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Creating Professional-Looking Dashboards with BETS
+title: Análise de Séries Temporais Usando o BETS
 resumo: We are going to show how to use BETS to create dashboards to visualize economic data. 
-date: 2017-11-07
+date: 2017-11-30
 author: Talitha Speranza
 image: /images/dashboard.png
 tags: 
