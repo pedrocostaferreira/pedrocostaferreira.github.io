@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Análise de Séries Temporais Usando o BETS
-resumo: We are going to show how to use BETS to create dashboards to visualize economic data. 
+resumo: Vamos modelar a série de produção de bens intermediários (PBI) com o BETS usando a metodologia Box & Jenkins. No final, seremos capazes de usar o modelo para fazer previsões. 
 date: 2017-11-30
 author: Talitha Speranza
 image: /images/dashboard.png
 tags: 
- -  R-English
+ -  Time Series
  -  BETS
  -  R
 ---
