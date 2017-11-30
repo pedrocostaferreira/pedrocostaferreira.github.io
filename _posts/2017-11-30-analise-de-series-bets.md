@@ -4,7 +4,7 @@ title: Análise de Séries Temporais Usando o BETS
 resumo: Vamos modelar a série de produção de bens intermediários (PBI) com o BETS usando a metodologia Box & Jenkins. No final, seremos capazes de usar o modelo para fazer previsões. 
 date: 2017-11-30
 author: Talitha Speranza
-image: /images/dashboard.png
+image: /images/unnamed-chunk-8-1.png
 tags: 
  -  Time Series
  -  BETS
@@ -15,8 +15,7 @@ Vamos modelar a série de produção de bens intermediários (PBI) com o
 BETS usando a metodologia Box & Jenkins. No final, seremos capazes de
 usar o modelo para fazer previsões.
 
-Metodologia Box & Jenkins
-=========================
+### Metodologia Box & Jenkins
 
 O método de Box & Jenkins permite que os valores futuros da série em
 estudo sejam previstos somente com base nos valores passados e presentes
@@ -61,11 +60,10 @@ contrário, o modelo pode ser utilizado para fazer previsões. Na próxima
 seção, conforme o exemplo for evoluindo, cada um desses estágios será
 observado de perto e mais será dito sobre a metodologia.
 
-Modelagem
-=========
+### Modelagem
 
-Preliminares
-------------
+
+#### Preliminares
 
 O primeiro passo é encontrar a série PBI na base de dados do BETS. Isso
 pode ser feito com a função `BETS.search`. O comando e sua saída são
@@ -143,10 +141,10 @@ benefício de levá-la em conta explicitamente ficará claro.
 A seguir, criaremos um modelo para a série escolhida de acordo com os
 passos definidos anteriormente.
 
-1. Identificação
-----------------
+### 1. Identificação
 
-### 1.1. Testes para Estacionariedade
+
+#### 1.1. Testes para Estacionariedade
 
 Esta subseção trata de um passo crucial na abordagem de Box & Jenkins: a
 determinação da existência e da quantidade total de raízes unitárias no
@@ -235,7 +233,7 @@ tiradas para eliminar as raizes unitárias. Para o caso da série em
 análise, o programa indica que não há raiz unitária mensal, não sendo
 necessária, portanto, diferenças nesta frequência.
 
-### 1.2. Funções de Autocorrelação
+#### 1.2. Funções de Autocorrelação
 
 As conclusões anteriores são corroboradas pela função de autocorrelação
 da série em primeira diferença (figura ). Ela mostra que autocorrelações
@@ -286,8 +284,7 @@ sazonal. Os dois últimos fatos indicam que o polinômio de médias móveis
 (não sazonal) pode ter ordem 2. Por estas razões, o primeiro modelo
 proposto para *Z*<sub>*t*</sub> será um `SARIMA(0,1,2)(1,0,0)[12]`.
 
-2. Estimação
-------------
+### 2. Estimação
 
 Para estimar os coeficientes do modelo `SARIMA(0,1,2)(1,0,0)[12]`, será
 aplicada a função `Arima` do pacote `forecast`. Os testes t serão feitos
@@ -313,8 +310,7 @@ Concluímos pela coluna `Rej.H0` que os dois coeficientes do modelo,
 quando estimados por máxima verossimilhança, são estatisticamente
 significativos a 99% de confiança.
 
-3. Testes de Diagnóstico
-------------------------
+### 3. Testes de Diagnóstico
 
 O objetivo dos testes de diagnóstico é verificar se o modelo escolhido é
 adequado. Neste trabalho, duas conhecidas ferramentas serão empregadas:
@@ -445,8 +441,7 @@ nula de que não há autocorrelação nos resíduos não seja rejeitada.
 Parece ser o caso, como mostra a figura . Concluímos, então, que o
 modelo foi bem especificado.
 
-4. Previsões
-------------
+### 4. Previsões
 
 O `BETS` fornece uma maneira conveniente para fazer previsões de modelos
 `SARIMA`. A função `BETS.predict` recebe os parâmetros da função
@@ -493,8 +488,7 @@ pela `forecast` (ou pela `BETS.grnn.test`, se for o caso). Na realidade,
 este campo ainda conta com um dado adicional: os erros de previsão, caso
 sejam fornecidos os valores efetivos da série no período de previsão.
 
-O uso da BETS.report para a modelagem SARIMA
-============================================
+### O uso da BETS.report para a modelagem SARIMA
 
 A função `BETS.report` executa toda a modelagem Box & Jenkins para
 qualquer conjunto de séries à escolha e gera relatórios com os
