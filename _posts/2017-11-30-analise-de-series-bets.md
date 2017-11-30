@@ -25,9 +25,8 @@ univariados.
 Estes modelos são chamados SARIMA, uma sigla para o termo em inglês
 *Seasonal Auto-Regressive Integrated Moving Average*, e têm a forma:
 
-\begin{equation}
-\Phi_{P}(B)\phi_{p}(B)\nabla^{d}\nabla^{D}Z_t = \Theta_{Q}(B)\theta_{q}(B)a_t.
-\end{equation}
+<img src="/images/eq.png"/>
+
 onde
 
 -   *Z*<sub>*t*</sub> é a série em estudo
