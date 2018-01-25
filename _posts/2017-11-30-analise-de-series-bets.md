@@ -163,9 +163,8 @@ os valores críticos e se a hipótese nula é rejeitada ou não, e um vetor
 contendo os resíduos da equação do teste. Esta equação é mostrada
 abaixo.
 
-\begin{equation}
-\Delta y_t = \phi + \tau_{1} t + \tau_{2} y_{t-1} + \delta_1 \Delta y_{t-1} + \cdots +\delta_{p-1} \Delta y_{t-p+1} + \varepsilon_t
-\end{equation}
+$\Delta y_t = \phi + \tau_{1} t + \tau_{2} y_{t-1} + \delta_1 \Delta y_{t-1} + \cdots +\delta_{p-1} \Delta y_{t-p+1} + \varepsilon_t$
+
 As estatísticas de teste da tabela do objeto de saída se referem aos
 coeficientes *ϕ* (média ou *drift*), *τ*<sub>1</sub> (tendência
 determinística) e *τ*<sub>2</sub> (raiz unitária). A inclusão da média e
