@@ -334,13 +334,7 @@ significativo em novembro de 2008. Este ponto corresponde à data da
 quebra estrutural que identificamos na figura . Portanto, foi proposto
 um segundo modelo, que inclui uma *dummy* definida como se segue:
 
-\begin{equation}
-D_{t} = \begin{cases}
-& 0 \text{, } t < \text{setembro de 2008} \\
-& 1 \text{, } \text{setembro de 2008} <= t <= \text{novembro de 2008} \\
-& 0 \text{, } t > \text{novembro de 2008} 
-\end{cases}
-\end{equation}
+<img src="/images/eq.png"/>
 
 Esta *dummy* pode ser criada com a função `BETS.dummy`, como mostramos
 abaixo. Os parâmetros `start` e `end` indicam o início e o fim do
