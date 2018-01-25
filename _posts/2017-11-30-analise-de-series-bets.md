@@ -163,7 +163,7 @@ os valores críticos e se a hipótese nula é rejeitada ou não, e um vetor
 contendo os resíduos da equação do teste. Esta equação é mostrada
 abaixo.
 
-*Δy<sub>*t*</sub> = ϕ + τ<sub>*1*</sub>t + τ<sub>2</sub>y<sub>*t − 1*</sub> + δ<sub>*1*</sub>Δy<sub>*t − 1*</sub> + ⋯ + δ<sub>p* − 1*</sub>Δy<sub>*t* − *p* + *1*</sub> + ε<sub>*t*</sub>
+*Δy<sub>*t*</sub> = ϕ + τ<sub>*1*</sub>t + τ<sub>2</sub>y<sub>*t* − *1*</sub> + δ<sub>*1*</sub>Δy<sub>*t − 1*</sub> + ⋯ + δ<sub>*p* − *1*</sub>Δy<sub>*t* − *p* + *1*</sub> + ε<sub>*t*</sub>*
 
 As estatísticas de teste da tabela do objeto de saída se referem aos
 coeficientes *ϕ* (média ou *drift*), *τ*<sub>1</sub> (tendência
