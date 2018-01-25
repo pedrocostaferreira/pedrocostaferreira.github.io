@@ -25,7 +25,7 @@ univariados.
 Estes modelos são chamados SARIMA, uma sigla para o termo em inglês
 *Seasonal Auto-Regressive Integrated Moving Average*, e têm a forma:
 
-<img src="/images/eq.png"/>
+*Φ*<sub>*P*</sub>(*B*)*ϕ*<sub>*p*</sub>(*B*)∇<sup>*d*</sup>∇<sup>*D*</sup>*Z*<sub>*t*</sub> = *Θ*<sub>*Q*</sub>(*B*)*θ*<sub>*q*</sub>(*B*)*a*<sub>*t*</sub>
 
 onde
 
@@ -163,7 +163,7 @@ os valores críticos e se a hipótese nula é rejeitada ou não, e um vetor
 contendo os resíduos da equação do teste. Esta equação é mostrada
 abaixo.
 
-$\Delta y_t = \phi + \tau_{1} t + \tau_{2} y_{t-1} + \delta_1 \Delta y_{t-1} + \cdots +\delta_{p-1} \Delta y_{t-p+1} + \varepsilon_t$
+*Δ**y*<sub>*t*</sub> = *ϕ* + *τ*<sub>1</sub>*t* + *τ*<sub>2</sub>*y*<sub>*t* − 1</sub> + *δ*<sub>1</sub>*Δ**y*<sub>*t* − 1</sub> + ⋯ + *δ*<sub>*p* − 1</sub>*Δ**y*<sub>*t* − *p* + 1</sub> + *ε*<sub>*t*</sub>
 
 As estatísticas de teste da tabela do objeto de saída se referem aos
 coeficientes *ϕ* (média ou *drift*), *τ*<sub>1</sub> (tendência
@@ -172,14 +172,15 @@ da tendência determinística é opcional. Para controlar os parâmetros do
 teste, a `BETS.ur_test` aceita os mesmos parâmetros da `ur.df`, além do
 nível de significância desejado.
 
-    > df = BETS.ur_test(y = diff(data), type = "none", lags = 11, 
-    +                                   selectlags = "BIC", level = "1pct")
+    > df = BETS.ur_test(y = data, type = "drift", lags = 11, 
+    +                                 selectlags = "BIC", level = "5pct")
     > 
     > # Exibir resultado dos testes
     > df$results
 
     ##      statistic crit.val rej.H0
-    ## tau1 -3.041155    -2.58    yes
+    ## tau2 -2.420907    -2.88     no
+    ## phi1  3.531397     4.63    yes
 
 Portanto, para a série em nível, observa-se que não se pode rejeitar a
 hipotése nula de existência de uma raiz unitária ao nível de confiança
@@ -196,12 +197,12 @@ verificar se a série diferenciada possui uma raiz unitária.
     +     ns_roots = ns_roots + 1
     +     d_ts = diff(d_ts)
     +     df = BETS.ur_test(y = d_ts, type = "none", lags = 11, 
-    +                                 selectlags = "BIC", level = "1pct")
+    +                                 selectlags = "BIC", level = "5pct")
     +  }
     > 
     > ns_roots
 
-    ## [1] 0
+    ## [1] 1
 
 Logo, para a série em primeira diferença, rejeita-se a hipótese nula de
 que há raiz unitária a 5% de significância. A FAC dos resíduos da
@@ -272,7 +273,7 @@ Função de Autocorrelação Parcial de ∇*Z*<sub>*t*</sub>
 </p>
 
 A FAC da figura e a FACP da figura podem ter sido geradas por um
-processo `SARIMA(0,0,2) (1,0,0)`. Esta conjectura se baseia na
+processo `SARIMA(0,0,1) (0,0,1)`. Esta conjectura se baseia na
 observação de que as defasagens múltiplas de 12 parecem apresentar corte
 brusco na FACP a partir da segunda (isto é, a de número 24) e decaimento
 exponencial na FAC. Além disso, as duas primeiras defasagens da FAC
@@ -280,11 +281,11 @@ parecem significativas, enquanto as demais, não. Há, ainda, alguma
 evidência de decaimento exponencial na FACP, exceto na frequência
 sazonal. Os dois últimos fatos indicam que o polinômio de médias móveis
 (não sazonal) pode ter ordem 2. Por estas razões, o primeiro modelo
-proposto para *Z*<sub>*t*</sub> será um `SARIMA(0,1,2)(1,0,0)[12]`.
+proposto para *Z*<sub>*t*</sub> será um `SARIMA(0,1,1)(0,1,1)[12]`.
 
 ### 2. Estimação
 
-Para estimar os coeficientes do modelo `SARIMA(0,1,2)(1,0,0)[12]`, será
+Para estimar os coeficientes do modelo `SARIMA(0,1,1)(0,1,1)[12]`, será
 aplicada a função `Arima` do pacote `forecast`. Os testes t serão feitos
 através da função `BETS.t_test` do BETS, que recebe um objeto do tipo
 `arima` ou `Arima`, o número de variáveis exógenas do modelo e o nível
@@ -293,16 +294,15 @@ informações do teste e do modelo (coeficientes estimados, erros padrão,
 estatísticas de teste, valores críticos e resultados dos testes).
 
     > # Estimacao dos parâmetros do modelo
-    > model1 = Arima(data, order = c(0,1,2), seasonal = c(1,0,0))
+    > model1 = Arima(data, order = c(0,1,1), seasonal = c(0,1,1))
     > 
     > # Teste t com os coeficientes estimados
     > # Nível de significância de 1%
     > BETS.t_test(model1, alpha = 0.01)
 
-    ##          Coeffs Std.Errors         t Crit.Values Rej.H0
-    ## ma1  -0.2359196 0.07510197  3.141324    2.606518   TRUE
-    ## ma2   0.2505574 0.08515366  2.942415    2.606518   TRUE
-    ## sar1  0.8266259 0.03941792 20.970815    2.606518   TRUE
+    ##          Coeffs Std.Errors        t Crit.Values Rej.H0
+    ## ma1  -0.2242623 0.07004662 3.201615    2.606518   TRUE
+    ## sma1 -0.8603049 0.08797294 9.779199    2.606518   TRUE
 
 Concluímos pela coluna `Rej.H0` que os dois coeficientes do modelo,
 quando estimados por máxima verossimilhança, são estatisticamente
@@ -341,6 +341,7 @@ D_{t} = \begin{cases}
 & 0 \text{, } t > \text{novembro de 2008} 
 \end{cases}
 \end{equation}
+
 Esta *dummy* pode ser criada com a função `BETS.dummy`, como mostramos
 abaixo. Os parâmetros `start` e `end` indicam o início e o fim do
 período coberto pela *dummy*, que nada mais é que uma série temporal
@@ -375,17 +376,16 @@ mostra que a inclusão de *D*<sub>*t*</sub> foi adequada, uma vez que não
 há mais evidência de quebra estrutural.
 
     > # Estimacao dos parâmetros do modelo com a dummy 
-    > model2 = Arima(data, order = c(0,1,2), seasonal = c(1,0,0), xreg = dummy)
+    > model2 = Arima(data, order = c(0,1,1), seasonal = c(0,1,1), xreg = dummy)
     > 
     > # Teste t com os coeficientes estimados
     > # Nível de significância de 1%
     > BETS.t_test(model2, alpha = 0.01)
 
-    ##           Coeffs Std.Errors         t Crit.Values Rej.H0
-    ## ma1   -0.2515672 0.07266577  3.461976    2.606518   TRUE
-    ## ma2    0.3194837 0.09032412  3.537080    2.606518   TRUE
-    ## sar1   0.8365482 0.03819343 21.902937    2.606518   TRUE
-    ## dummy  5.1083323 1.29640546  3.940382    2.606518   TRUE
+    ##           Coeffs Std.Errors        t Crit.Values Rej.H0
+    ## ma1   -0.2142085 0.06950419 3.081951    2.606518   TRUE
+    ## sma1  -0.8374282 0.08608494 9.727929    2.606518   TRUE
+    ## dummy  4.0920955 1.56375356 2.616842    2.606518   TRUE
 
     > resids = BETS.std_resid(model2, alpha = 0.01)
     > 
@@ -401,11 +401,11 @@ estrutural
     > # Mostrar BIC dos dois modelos estimados
     > model1$bic
 
-    ## [1] 847.2932
+    ## [1] 726.7885
 
     > model2$bic
 
-    ## [1] 838.1663
+    ## [1] 725.1295
 
 Notamos, ainda, que o *Bayesian Information Criteria* (BIC) do modelo
 com a *dummy* é menor. Logo, também por este critério, o modelo com a
@@ -417,14 +417,14 @@ testes, fazemos os correlogramas dos resíduos e vemos se há algum padrão
 de autocorrelação.
 
     > # Teste de Ljung-Box nos resíduos do modelo com a dummy
-    > boxt = Box.test(resid(model2), type = "Ljung-Box",lag = 11)
+    > boxt = Box.test(resid(model2), type = "Ljung-Box",lag = 2)
     > boxt
 
     ## 
     ##  Box-Ljung test
     ## 
     ## data:  resid(model2)
-    ## X-squared = 10.885, df = 11, p-value = 0.4529
+    ## X-squared = 1.1446, df = 2, p-value = 0.5642
 
     > # Correlograma dos resíduos do modelo com a dummy
     > BETS.corrgram(resid(model2), lag.max = 20, mode = "bartlett", style = "normal")
@@ -477,9 +477,9 @@ podemos verificar várias medidas de ajuste acessando o campo
     > preds[['accuracy']]
 
     ##                 ME     RMSE      MAE       MPE     MAPE       ACF1
-    ## Test set -3.453621 3.754918 3.453621 -4.254203 4.254203 -0.2252521
+    ## Test set -5.383763 5.518828 5.383763 -6.579101 6.579101 -0.7219499
     ##          Theil's U
-    ## Test set 0.8333718
+    ## Test set  1.201717
 
 o outro campo deste objeto, `'predictions'`, contém o objeto retornado
 pela `forecast` (ou pela `BETS.grnn.test`, se for o caso). Na realidade,
