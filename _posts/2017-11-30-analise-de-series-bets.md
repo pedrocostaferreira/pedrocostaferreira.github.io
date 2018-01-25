@@ -256,12 +256,12 @@ opções de *zoom*, *pan* e para salvar o gráfico no formato png.
 
 <img src="/images/fac1-1.png" alt="Função de Autocorrelação de $\nabla Z_t$"  />
 <p class="caption">
-Função de Autocorrelação de ∇*Z*<sub>*t*</sub>
+Função de Autocorrelação de *∇Z<sub>*t*</sub>*
 </p>
 
 O correlograma acima ainda não é suficiente para determinamos um modelo
 para a série. Faremos, então, o gráfico da função de autocorrelação
-parcial (FACP) de ∇*Z*<sub>*t*</sub>. A `BETS.corrgram` também pode ser
+parcial (FACP) de *∇Z<sub>*t*</sub>*. A `BETS.corrgram` também pode ser
 utilizada para este fim.
 
     > # Função de autocorrelação parcial de diff(data)
@@ -269,7 +269,7 @@ utilizada para este fim.
 
 <img src="/images/fac2-1.png" alt="Função de Autocorrelação Parcial de $\nabla Z_t$"  />
 <p class="caption">
-Função de Autocorrelação Parcial de ∇*Z*<sub>*t*</sub>
+Função de Autocorrelação Parcial de *∇Z<sub>*t*</sub>*
 </p>
 
 A FAC da figura e a FACP da figura podem ter sido geradas por um
@@ -281,7 +281,7 @@ parecem significativas, enquanto as demais, não. Há, ainda, alguma
 evidência de decaimento exponencial na FACP, exceto na frequência
 sazonal. Os dois últimos fatos indicam que o polinômio de médias móveis
 (não sazonal) pode ter ordem 2. Por estas razões, o primeiro modelo
-proposto para *Z*<sub>*t*</sub> será um `SARIMA(0,1,1)(0,1,1)[12]`.
+proposto para *Z<sub>*t*</sub>* será um `SARIMA(0,1,1)(0,1,1)[12]`.
 
 ### 2. Estimação
 
